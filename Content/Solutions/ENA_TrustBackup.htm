@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="topic" style="mc-master-page: url('../Resources/MasterPages/OtherTopics.flmsp');" MadCap:searchable="True">
+    <head>
+        <link href="../Resources/Stylesheets/tablestyle.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>ENA TrustBackup</title>
+        <script src="https://use.fontawesome.com/d55f30af0f.js">
+        </script>
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Source+Sans+Pro:400,600" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>ENA TrustBackup</h1>
+        <h2>Getting Started</h2>
+        <h3>How ENA TrustBackup works</h3>
+        <p>ENA TrustBackup is a comprehensive file backup solution with cloud storage. It is a  forever forward incremental backup solution. All files in a backup set are copied during the first job. In subsequent jobs, ENA TrustBackup does block-level file copying, backing up only the parts of a file that have changed. You can of course, restore a full backup set from any job run at any point in time. </p>
+        <p>To back up files from a computer or server to ENA TrustBackup, you first download an ENA TrustBackup Agent to the machine. The computers and servers onto which you install the ENA TrustBackup Agent are referred to as clients.</p>
+        <p>You create backup sets to define:</p>
+        <ul>
+            <li>What files will be backed up</li>
+            <li>When and how often they will be backed up</li>
+            <li>How long the files will be retained.</li>
+        </ul>
+        <p>You add agents to a backup set. One or many agents may be added to a backup set. An agent may be added to more than one backup set.</p>
+        <p>The session during which a backup set is run on an agent is a job.</p>
+        <p>You can create tags and apply them to agents to make it easy to sort and apply an action to a group of agents.</p>
+        <h3>Log in to ENA TrustBackup</h3>
+        <ol>
+            <li>Point your browser to <a href="https://my.ena.com/">my.ena.com</a>.</li>
+            <li>Enter your my.ena.com credentials.</li>
+            <li>Select <b>ENA TrustBackup</b>.</li>
+        </ol>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-log-in.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h1>Agents</h1>
+        <p>An agent is ENA TrustBackup software installed on a client.</p>
+        <h2>Install agents</h2>
+        <p>You must install an ENA TrustBackup Agent on every client for which you would like to use ENA TrustBackup. ENA TrustBackup currently provides automated agent installation for Mac and Windows operating systems.</p>
+        <h3>Download agent installer</h3>
+        <ol>
+            <li>Scroll to the bottom of the <b>Dashboard</b>.</li>
+            <li>Select Mac or Windows 32-Bit or 64-bit, as appropriate for the machine.</li>
+            <li>Open the downloaded TrustBackupAgent.msi file.</li>
+            <li>Click <b>Next</b> in the <b>Welcome to the ENA TrustBackup Setup Wizard</b> window.</li>
+            <li>After reading the terms of the license agreement, click <b>I accept the terms of the License Agreement</b> to continue with the installation, and click <b>Next</b>.</li>
+            <li>Copy your <b>Entitlement key</b> from the Dashboard and paste it into the <b>Enter your entitlement key</b> field, click <b>Verify</b>, and click <b>Next</b>.</li>
+            <li>Enter a <b>Passphrase</b> then <b>Re-type passphrase</b> to confirm, and click <b>Next</b>.</li>
+            <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">In order to ensure security and data privacy, ENA TrustBackup encrypts all data before transmitting it to the ENA Cloud. ENA TrustBackup employs a TNO (trust-no-one) security model and does not store your passphrase outside of your local system. Therefore, ENA is not able to recover a lost passphrase. Loss of this passphrase will render all encrypted data nonrecoverable. Please store this passphrase to ensure data recovery when needed.</p>
+            <li>Enter a <b>Password</b> for the ENA TrustBackup UI then <b>Re-type password</b> to confirm, and click <b>Next</b>.</li>
+            <li>If you would like to change the location to which the ENA TrustBackup Agent is installed, <b>Browse</b> to it, and click <b>Next</b>. To accept the default install location, click <b>Next</b>.</li>
+            <li>Click <b>Install</b>.</li>
+            <li>Click <b>Finish</b>.</li>
+        </ol>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-install-agent.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <p>You can confirm the ENA TrustBackup Agent is successfully installed and working on the <b>Agents</b> page.</p>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-view-installed-agent.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h2>Working with Agents</h2>
+        <p>On the <b>Agents</b> page, you see summary table for all agents and an <b>Actions</b> column.</p>
+        <h3>Choose agent data to view </h3>
+        <p>By default you see data for all agents in the table. You can narrow the list of agents shown by:</p>
+        <ul>
+            <li><b>Tag</b>
+            </li>
+            <li><b>Find agent</b>
+            </li>
+        </ul>
+        <h3>Edit agent name</h3>
+        <p>When you install an ENA TrustBackup Agent on a client, it uses the Host name as the Agent name by default. You can edit agent names to help you more easily recognize and work with them. </p>
+        <p>To edit an ENA TrustBackup Agent name:</p>
+        <ol>
+            <li>On the <b>Agents</b> page, click the pencil icon to the right of the <b>Agent name</b> you would like to edit.</li>
+            <li>Enter the new name.</li>
+            <li>Click the check mark.</li>
+            <p>
+                <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-edit-agent-name.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+        </ol>
+        <h3>Check agent status</h3>
+        <p>If an agent is connected to the network and available for backup, it's status shows as <b>Ready</b> in the <b>Status </b> column on the <b>Agents</b> page. If the agent is not connected to the network and available for backup, it's status shows as <b>Unavailable</b>. This could be caused by the client being powered off or disconnected from the network. Agent availability may also be impacted by your firewall settings.</p>
+        <p>If you do not see an agent in the list when you are creating a new backup set or adding agents to a backup set, check it's status.</p>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-agent-status.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <p>Agent status types are:</p>
+        <table style="width: 100%;mc-table-style: url('../Resources/Stylesheets/tablestyle.css');border-top-left-radius: 9px;border-top-right-radius: 9px;border-bottom-right-radius: 9px;border-bottom-left-radius: 9px;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;" class="TableStyle-tablestyle" cellspacing="0">
+            <col class="TableStyle-tablestyle-Column-Column1" style="width: 124px;" />
+            <col class="TableStyle-tablestyle-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-tablestyle-Head-Header1">
+                    <td class="TableStyle-tablestyle-HeadE-Column1-Header1">Status</td>
+                    <td class="TableStyle-tablestyle-HeadD-Column2-Header1">Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1">Paused</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Agent has been manually paused</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1">Ready</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Agent is ready for backup or restore</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1">Running</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Agent is running a backup or restore</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyB-Column1-Body1">Unavailable</td>
+                    <td class="TableStyle-tablestyle-BodyA-Column2-Body1">
+                        <p>Agent is unavailable for backup or restore. This could be caused by the client being powered off or disconnected from the network. Agent availability may also be impacted by your firewall settings.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Pause agent</h3>
+        <p> There are times you may want to pause an agent from being backed up, for example, during school testing periods. To pause and agent:</p>
+        <ol>
+            <li>Click <b>Pause</b> in the <b>Actions</b> column for that agent. </li>
+            <li>Select how long you would like the agent to be paused from the drop down menu.</li>
+        </ol>
+        <p>If you choose to pause the agent <b>Until resumed</b>, click <b>Resume</b> in the <b>Actions</b> column to resume normal backups for that agent.</p>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-pause-resume-agents.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Delete agent</h3>
+        <p>To delete an agent, click <b>Delete</b> in the <b>Actions</b> column.</p>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-delete-agents.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h1>Backup Sets</h1>
+        <p>A backup set is a list of rules which define:</p>
+        <ul>
+            <li>What files you want to backup</li>
+            <li>When and how often you want to back them up</li>
+            <li>The duration of time for which they are kept</li>
+        </ul>
+        <p>Once a backup set is created, multiple agents may be added to it.</p>
+        <h2>Create a new backup set</h2>
+        <p>In this example, we want to back up the attendance records for the elementary and the middle/high school every day at 4 pm, M-F. These records are kept on each school's main office computer in a folder named <b>Attendance</b>. We want to keep these files for 10 years.</p>
+        <ol>
+            <li>Select <b>Backup Sets</b> from the menu.</li>
+            <li>Click <b>Create new backup set</b>.</li>
+            <li>Type the name into the <b>Name</b> field. In this example, we'll use <b>Attendance</b>.</li>
+            <p>
+                <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-new-backup-set-name.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+            <li>The next step is to select an <b>Agent</b> to add to this backup set. If we want to add other agents to this Backup set later, this agent will serve as the model. In this example, we choose <b>elementary office main</b>, which has the <b>Attendance</b> folder we want to include in this backup set. </li>
+            <li>In this example, we only have three available agents, so it is very easy to find the one we want to back up. If you have a large number of agents in your system, you can filter the list of agents you see in the list by <b>Tag</b>. This step is optional and is designed to streamline the process of applying backup sets in a system with a large number of agents. To learn more about tags, click <a href="#Tags">here</a>. </li>
+            <p>
+                <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-new-backup-set-select-agent.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+            <li>Once you select an agent, you see all the available files on that machine in the <b>Source</b> window. You can <b>Select folders or files</b> you want to be backed up from the file explorer or <b>Enter path manually</b>. </li>
+            <p>
+                <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-new-backup-select-folders-or-files.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+            <li>You have the option to apply <b>Filters</b> to the data being backed up. For more information about <b>Filters</b>, click <a href="#Filters">here</a>.</li>
+            <li>Enter the <b>Schedule</b> parameters for this backup set. In this example, we want to back the <b>Attendance</b> folder up every weekday at 4:00 pm. </li>
+            <p>
+                <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-new-backup-set-schedule.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+            <p>To use a different example, if we want to schedule a backup set to run every Friday at 7:00pm, we choose <b>Every  week</b>, and then select <b>Friday</b> from <b>Allowed days</b>.</p>
+            <p>
+                <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-new-backup-set-schedule-every7days.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+            <li>Enter the <b>Retention</b> parameters for this backup set. We want to retain these files for 10 years.</li>
+            <p>
+                <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-new-backup-set-retention.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+            <li>If you would like to add additional agents to this backup set, select them under <b>Select other agents</b>. In our example, we will add the <b>middle/high school office main</b> agent to this Backup set. When you select another agent, the system will check and make sure the files or folders selected in the Backup set exist on that client. If they do, you see <b>Valid</b> in the <b>Usable</b> column.
+			<p>You can narrow the list of agents you see in <b>Select other agents</b> by using the <b>Tag</b> drop down or by typing an Agent name into the <b>Filter</b> field. This is helpful when you are managing a system with a large number of agents. In this example, we only have two additional agents, so we did not use this feature.</p></li>
+            <p>
+                <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-new-backup-additional-agents.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+            <p>If you attempt to add an agent installed on a client that does not have the files or folders you have included in your backup set, you see an invalid agents warning.</p>
+            <p>
+                <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-new-backup-set-invalid-agents.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+            <li>Click <b>Create</b>.</li>
+            <p>
+                <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-new-backup-set-create.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+        </ol>
+        <h2>Working with Backup Sets</h2>
+        <p>You see options for working with backup sets in the <b>Actions</b> column.</p>
+        <h3>Run now</h3>
+        <p>Click here to manually run the job.</p>
+        <h3>Jobs</h3>
+        <p>Opens up the <b>Jobs</b> panel below the <b>Backup sets</b> panel.</p>
+        <h3>Edit </h3>
+        <p>To edit a backup set:</p>
+        <ol>
+            <li>Go to the <b>Backup sets</b> page.</li>
+            <li>Click <b>Edit</b> under the <b>Actions</b> column for the backup set you would like to edit.</li>
+        </ol>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-edit-backup-set.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Delete</h3>
+        <p>Deletes the backup set.</p>
+        <h2>Restore</h2>
+        <p>To restore files and folders:</p>
+        <ol>
+            <li>On the <b>Backup sets</b> page, click <b>Jobs</b> next to the backup set from which you would like to restore files.</li>
+            <li>In the <b>Jobs for</b> panel, you see all the agents that are part of that backup set. Select <b>Jobs</b> under <b>Actions</b> for the agent from which you would like to restore files.</li>
+            <li>Click <b>Restore files</b>.</li>
+            <p>
+                <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-restore-select-set-jobs.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+            <li><b>Select what to restore</b> from the file explorer.</li>
+            <p>
+                <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-restore-select-what.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+            <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">In the <b>Select what to restore</b> drop down, you see only jobs in which files or folders have changed. </p>
+            <li><b>Select where to restore</b>.
+			<ul><li><b>Original</b> restores the file to the original agent in the original location.</li><li><b>Pick on original agent</b> opens up a file explorer you use to restore to a different location on the original agent.</li><p><object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-restore-pick-on-original.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false"></object></p><li><b>Other agent</b> opens up a drop down from which you can select another agent, and a file explorer you use to select the restore location on that agent.</li><p><object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-restore-other-agent.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false"></object></p></ul></li>
+            <li>Select <b>Restore mode</b></li>
+            <ul>
+                <li><b>Overwrite</b> will replace files of the same name on the client with the files being restored.</li>
+                <li><b>Save different versions with timestamp in file name</b> adds a timestamp to the file or folder name during restore. It does not overwrite files of the same name on the client with the files being restored.</li>
+            </ul>
+            <li>Select <b>Permissions</b></li>
+            <p>Files and folders are restored with the same permission settings they had when they were backed up.</p>
+            <li>Click <b>Restore</b> then click <b>OK</b> to confirm.</li>
+            <p>
+                <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-restore-other-click-restore.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+        </ol>
+        <h1>Jobs</h1>
+        <p>Jobs are sessions in which a backup set is run on an agent.</p>
+        <p>The <b>Jobs</b> page gives you a table view of all jobs in all backup sets which are scheduled or ready to be manually run on which agents.</p>
+        <h2>Working with Jobs</h2>
+        <h3>Choose job data to view</h3>
+        <p>You can use the drop down at the top of the page to filter the number of jobs which appear in the table.</p>
+        <p>You can filter by:</p>
+        <ul>
+            <li>Backup set</li>
+            <li>Agent name</li>
+            <li>Job status</li>
+            <li>Time interval</li>
+        </ul>
+        <p>
+            <p>
+                <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-jobs-filter.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+        </p>
+        <p>You see options for working with jobs in the <b>Actions</b> column.</p>
+        <h3>Run now</h3>
+        <p>Click here to manually start a job. </p>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If a job is already running on this agent, this option is grayed out.</p>
+        <h3>Events</h3>
+        <p>Click here to see past events for this backup set and agent. </p>
+        <h3>Delete</h3>
+        <p>Removes that agent from jobs in that backup set.</p>
+        <h3>Jobs Status</h3>
+        <p>Job status types are:</p>
+        <table style="width: 100%;mc-table-style: url('../Resources/Stylesheets/tablestyle.css');" class="TableStyle-tablestyle" cellspacing="0">
+            <col class="TableStyle-tablestyle-Column-Column1" style="width: 135px;" />
+            <col class="TableStyle-tablestyle-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-tablestyle-Head-Header1">
+                    <td class="TableStyle-tablestyle-HeadE-Column1-Header1">Status</td>
+                    <td class="TableStyle-tablestyle-HeadD-Column2-Header1">Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1">Manual</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Job runs when manually started</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1">Running</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Job is currently running</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1">Scheduled</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Job is scheduled to run</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyB-Column1-Body1">Unavailable</td>
+                    <td class="TableStyle-tablestyle-BodyA-Column2-Body1">Job is unavailable to run or restore because the agent is unavailable.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Event History </h1>
+        <p>The Event history page gives you a consolidated view of past jobs. </p>
+        <h2>Choose event data to view</h2>
+        <p>You can use the drop-downs at the top to filter the <b>Event history</b>. Once you select your filters, click <b>Apply</b>. You can filter the event list by:</p>
+        <ul>
+            <li>Backup set</li>
+            <li>Agent name</li>
+            <li>Event type</li>
+            <li>Time interval</li>
+        </ul>
+        <h2>View details</h2>
+        <p>Click <b>View details</b> for a granular view into data for the event.</p>
+        <h1><a name="Tags"></a>Tags</h1>
+        <h2>Create a new tag</h2>
+        <p>Tags are a way to group and filter agents. To create a tag:</p>
+        <ol>
+            <li>Select <b>Tags</b> from the menu.</li>
+            <li>Click on <b>New tag</b>.</li>
+            <li>Enter the tag <b>Name</b> (required)&#160;and a <b>Description</b> (optional).</li>
+            <li>To tag available agents here, click the check box next to an agent.</li>
+            <li>Click <b>Create</b>.</li>
+        </ol>
+        <p>In this example, we create a "main office schools" tag and apply to the agents on both our main office computers at the schools.</p>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-create-tags.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h2>Tag agents</h2>
+        <ol>
+            <li>On the <b>Tags</b> page, click <b>Edit</b> next to the tag to which you would like to add an agent. </li>
+            <li>Click the checkbox next to the agent you would like to tag.</li>
+            <li>Click <b>Update</b>. </li>
+        </ol>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-agent-tag.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h1><a name="Managing"></a>Managing Bandwidth Used by ENA TrustBackup</h1>
+        <p>You can set limits on the amount of bandwidth ENA TrustBackup uses for uploads and downloads  at the global level and/or the agent level. </p>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If you set a maximum upload or download speed for a specific agent using a <b>Bandwidth Policy</b>, it overrides the global setting for that specific agent.</p>
+        <h2><a name="Set"></a>Set Global Maximum Download and Upload Speeds</h2>
+        <p>To set <b>Maximum download speed</b> for all agents:</p>
+        <ol>
+            <li>Go to <b>Other settings</b> on the <b>Settings</b> page.</li>
+            <li>In the <b>Maximum download speed</b> drop-down, select the unit of measure you would like to use.</li>
+            <li>Enter a quantity.</li>
+            <li>Click <b>Apply</b>.</li>
+        </ol>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-maximum-download-global.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <p>To set a <b>Maximum upload speed</b> for all agents:</p>
+        <ol>
+            <li>Go to <b>Other settings</b> on the <b>Settings</b> page.</li>
+            <li>In the <b>Maximum upload speed</b> drop-down, select the unit of measure you would like to use.</li>
+            <li>Enter a quantity.</li>
+            <li>Click <b>Apply</b>.</li>
+        </ol>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-maximum-upload-global.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h2>Create a Bandwidth Policy and Assign Agents To It</h2>
+        <ol>
+            <li>
+                <p>Go to the <b>Bandwidth Policies</b> page.</p>
+            </li>
+            <li>
+                <p>Under <b>New policy</b>, create a unique policy name.</p>
+            </li>
+            <li>
+                <p>In the <b>Maximum upload speed </b>field, input the desired maximum upload speed and select the unit of measurement from the drop-down.</p>
+            </li>
+            <li>
+                <p>In the <b>Maximum download speed</b> field, input the desired maximum download speed and select the unit of measurement from the drop-down.</p>
+            </li>
+            <li>
+                <p>Add a <b>Description</b> of the policy (optional).</p>
+            </li>
+            <li>
+                Under <b>Select Agents</b>, select the agents you wish to apply to the bandwidth policy, applying a name filter if desired.
+</li>
+            <li>Click <b>Create</b>.
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">An agent can be assigned to only one bandwidth policy at a time. Once it's assigned to a bandwidth policy, the agent name will no longer appear in the list of selectable agents.</p></li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-bandwidthpolicy-create.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+        </ol>
+        <h2>Managing Bandwidth Policies
+</h2>
+        <h3>To edit a Bandwidth Policy:</h3>
+        <ol>
+            <li>Go to the <b>Bandwidth Policies</b> page.</li>
+            <li>Under <b>Available Policies</b>, click <b>Edit</b>.</li>
+            <li>Under <b>Update policy Default</b>, select the name, <b>Maximum upload speed</b>, <b>Maximum download speed</b>, or <b>Description</b> fields to edit.</li>
+            <li>Click <b>Update</b>.</li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-bandwidthpolicy-edit.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+        </ol>
+        <h3>To delete a Bandwidth Policy:</h3>
+        <ol>
+            <li>Go to the <b>Bandwidth Policies</b> page.</li>
+            <li>Under <b>Available Policies</b>, click <b>Delete</b>.</li>
+            <li>Click <b>OK</b> to confirm.</li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-bandwidthpolicy-delete.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+        </ol>
+        <h1><a name="Filters"></a>Filters</h1>
+        <p> By default, all files in folders you select will be backed up. You can use filters to include or exclude files and folders from your backup. A filter consists of rules which determine if a file is to be included to the backup or excluded from it. </p>
+        <h2>Filters-basic</h2>
+        <p>Using the basic filtering tool, you can exclude:</p>
+        <ul>
+            <li>Files larger than a specific size</li>
+            <li>Hidden files</li>
+            <li>System files</li>
+            <li>Temporary files</li>
+        </ul>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-basic-filter-exlcude-files.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Filters-advanced</h3>
+        <p>You have the option to create custom filters using <b>Filters-advanced</b>.</p>
+        <p>ENA TrustBackup’s filter engine processes folders first then files. The reason for this order is performance. If a folder is excluded from a backup, the files inside that folder don’t have to be processed anymore.</p>
+        <p>When filter rules have been defined, the first folder is taken and the filter rules are processed one by one. The first rule that matches is applied and the following rules are not processed anymore. For instance, if the first rule excludes a folder, then this folder and all files within will be excluded from the backup even if following rules include this folder or its files.</p>
+        <p>It is recommended to write folder rules first and file rules next. That way rules are written in the same order in which they will be applied when ENA TrustBackup processes them,</p>
+        <p>Once you choose <b>Exlude</b> or <b>Include</b> from the drop-down, define the rules for the filter.</p>
+        <p>Syntax parameters include:</p>
+        <ul>
+            <li><span style="background-color: #dcdcdc;">?</span> matches any single character.</li>
+            <li><span style="background-color: #dcdcdc;">*</span> specifies none or multiple characters.</li>
+            <li>Rules can be specified as regular expression. In this case, put the regular expression (using .NET syntax) into hard brackets [].</li>
+            <li>Folder names always end with a backslash \ on Windows. For instance, “log” is a file, “log/” is a folder.</li>
+        </ul>
+        <h3>Common use cases</h3>
+        <ul>
+            <li>Exclude specific sub-folders</li>
+            <p>You want to backup all photos on your NAS (Network-attached storage). Your photos are stored in hundreds of folders and each of those folders contains a sub-folder called “@eaDir” that contains thumbnails in different sizes that your NAS uses for a web interface. You want to backup your photos but not the thumbnails. In this example, you just exclude all thumbnail folders and thus their content. The rule is: <span style="background-color: #dcdcdc;">-*/@eaDir/</span>. Don’t forget the trailing slash that defines @eaDir as a folder.</p>
+            <li>Exclude specific files</li>
+            <p>You store your photos and movies in the same folders. For some reason, you do not want to include the movies into your backup. You could define a rule like <span style="background-color: #dcdcdc;">-*.mov</span> or <span style="background-color: #dcdcdc;">-*.avi</span>. </p>
+            <li>Include specific files only</li>
+            <p>You have a folder structure that contains a lot of photos and movies from your camera. For some reason you only want to include the photos to your backup. The rule for your backup is <span style="background-color: #dcdcdc;">+*.jpg +*.jpeg</span>. As there are including rules in this filter, ENA TrustBackup automatically excludes all other files.</p>
+            <li>Include some files, exclude others</li>
+            <p>Now let’s define a filter that does both of the above. First it excludes @eaDir specifying <span style="background-color: #dcdcdc;">-*/@eaDir/</span>. Then it includes only JPG files specifying <span style="background-color: #dcdcdc;">+*.jpg</span>. The problem here is, that ENA TrustBackup includes all files and folders per default. This means that e.g. /photos/movie.avi will also be part of the backup. To make the including rule effective an additional rule is required that excludes all files that do not match any of the current rules. The filter must say “exclude this, exclude that, include this but nothing else”. The best rule for “but nothing else” is a regular expression that excludes all files. On Windows the rule is <span style="background-color: #dcdcdc;">-.*[^\\]</span>. The rule says “exclude everything that is not a folder”. The final filter then is <span style="background-color: #dcdcdc;">-*/@eaDir/ +*.jpg +*.jpeg -.*[^/]</span>. ENA TrustBackup will process all folders but @eaDir/ and it will include JPG and JPEG files but exclude all other files.A job is the running of a backup set on an agent.</p>
+        </ul>
+        <h1>Settings</h1>
+        <h2>Notifications</h2>
+        <p>Go to the <b>Notifications</b> area of the <b>Settings</b> page to change, add to, or delete email addresses where notifications will be sent when system issues occur.</p>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">You must have at least one email address in the <b>Notifications</b> area.</p>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-email-notifications.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h2>Other settings</h2>
+        <p>See <a href="#Set">Set Global Maximum Download and Upload Speeds</a>.</p>
+    </body>
+</html>

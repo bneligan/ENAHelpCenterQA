@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlossary>
+  <GlossaryEntry
+    glossTerm="Glossary.Term16"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Client</Term>
+    </Terms>
+    <Definition
+      Link="">Computer or server onto which the ENA TrustBackup Agent is installed</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term19"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Backup set</Term>
+    </Terms>
+    <Definition
+      Link="">A list of rules which define what files you want to backup, when and how often you want to back them up, and the duration of time for which they are kept.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term0"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Agent</Term>
+    </Terms>
+    <Definition
+      Link="">ENA TrustBackup software installed on a client</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term1"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Tag</Term>
+    </Terms>
+    <Definition
+      Link="">Tags are a way to group and filter agents</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term2"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>job</Term>
+    </Terms>
+    <Definition
+      Link="">Session during which a backup set is run on an agent</Definition>
+  </GlossaryEntry>
+</CatapultGlossary>

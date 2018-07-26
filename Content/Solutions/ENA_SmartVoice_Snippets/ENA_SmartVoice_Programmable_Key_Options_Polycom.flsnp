@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../Resources/Stylesheets/tablestyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h3><a name="Polycom_keys"></a>Programmable Key Options for Polycom Phones</h3>
+        <table style="mc-table-style: url('../../Resources/Stylesheets/tablestyle.css');border-top-left-radius: 9px;border-top-right-radius: 9px;border-bottom-right-radius: 9px;border-bottom-left-radius: 9px;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;border-collapse: separate;" class="TableStyle-tablestyle" cellspacing="0">
+            <col class="TableStyle-tablestyle-Column-Column1" style="width: 0px;" />
+            <col class="TableStyle-tablestyle-Column-Column2" style="width: 0px;" />
+            <col class="TableStyle-tablestyle-Column-Column2" style="width: 0px;" />
+            <col class="TableStyle-tablestyle-Column-Column2" style="width: 0px;" />
+            <thead>
+                <tr class="TableStyle-tablestyle-Head-Header1">
+                    <th class="TableStyle-tablestyle-HeadE-Column1-Header1">
+                        <p>Option</p>
+                    </th>
+                    <th class="TableStyle-tablestyle-HeadF-Column2-Header1">Available in Feature Package</th>
+                    <th class="TableStyle-tablestyle-HeadF-Column2-Header1">What it Does</th>
+                    <th class="TableStyle-tablestyle-HeadD-Column2-Header1">Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>Directed Pickup</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Plus, Plus Mobile, Plus Office, Pro</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">When target phone number receives an incoming call, able to press key to answer.</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Target phone number must be an ENA SmartVoice extension. </td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>Enhanced Monitored Extension</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">
+                        <p>Prime</p>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">
+                        <p>Shows when the target ENA SmartVoice extension is in use.
+</p>
+                        <p>Is a speed dial to that extension.
+</p>
+                        <p>Is a one-touch <i>blind</i> transfer to that extension.</p>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">
+                        <p rowspan="2">Limit to 4 per phone with Prime feature package.</p>
+                        <p rowspan="2">The extension being monitored must be a part of your ENA SmartVoice system.</p>
+                        <p rowspan="2">An Enhanced Monitored Extension key does not work as a speed dial key during a Consultative transfer.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>Enhanced Monitored Extension</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Plus, Plus Mobile, Plus Office, Pro</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">
+                        <p>All of the features available in the Prime package, plus the ability to press key to answer incoming call to target extension.</p>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">
+                        <p rowspan="2">The extension being monitored must be a part of your ENA SmartVoice system.</p>
+                        <p rowspan="2">An Enhanced Monitored Extension key does not work as a speed dial key during a Consultative transfer.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>Enhanced Call Park</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Plus, Plus Mobile, Plus Office, Pro</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">
+                        <p>One touch call park on the Call Park Orbit you specify when configuring the key.</p>
+                        <p>Provides onscreen indicator of whether or not call has been retrieved. </p>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>Group Pickup</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Plus, Plus Mobile, Plus Office, Pro</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">When any member of call group receives an incoming call, able to press <b>Group Pickup</b> key to answer.</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Your ENA SmartVoice System Administrator creates and manages call groups.</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>Line</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">All</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Line from which calls may be placed and on which calls may be received. </td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">
+                        <p>Line 1 on a phone is almost always the extension for that phone. </p>
+                        <p>Additional lines (e.g., Main)&#160;may be added (forked) to a phone.</p>
+                        <p>Your ENA&#160;SmartVoice System Administrator may add or remove lines from your phone.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>Park Call</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">All</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">One touch call park to the first available Call Park Orbit.</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">
+                        <p>They system will notify you of the orbit on which the call is parked.</p>
+                        <p>If you receive an error message of "No call park orbits available," please check with your ENA&#160;SmartVoice System Administrator to have them activated. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>Retrieve Parked Call (Specified Orbit)</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">All</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Retrieves a call parked on the Call Park Orbit you specify when you configure the key.</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>Speed Dial</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">All</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">
+                        <p>Dials out to the number you specify in the <b>Number</b> field.</p>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">
+                        <p>Speed dial numbers may be internal or external. </p>
+                        <p>The speed dial key may be used in conjunction with the transfer key to complete a blind or consultative transfer.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>One Touch Transfer</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">All</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">One touch <i>blind</i> transfer to target number.</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyB-Column1-Body1"><b>Voicemail</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyC-Column2-Body1">All</td>
+                    <td class="TableStyle-tablestyle-BodyC-Column2-Body1">Performs the same function as the <b>Voicemail</b> soft key or button.</td>
+                    <td class="TableStyle-tablestyle-BodyA-Column2-Body1">&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

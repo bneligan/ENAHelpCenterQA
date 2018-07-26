@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head>
+</head>
+<body>
+		<h2>Paging</h2>
+			<h3>How do I make a zone page that is broadcast through the phone speakers?</h3>
+	
+					<p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #ffffff;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">Zone pages are broadcast through the phone speakers, not your building intercom system.</p>
+					<p>If your system administrator has created paging zones (for example, All Call, Second Floor, etc.) and assigned your phone broadcast permission, you see a <b>Paging</b> soft key on your phone. </p>
+					<p>To make a zone page through the phone speakers:</p>
+					<ol>
+						<li>Press <b>Paging</b>.</li>
+						<li>Use the navigation dial to select the zone you would like to page.</li>
+						<li>Press <b>Page</b>.</li>
+					</ol>
+	
+			<h3>If my building intercom system is integrated with my ENA SmartVoice system, how do I make an announcement?</h3>
+	
+					<p>Your system administrator will provide you with an extension to dial to make an announcement through the building speakers.</p>
+					<p>If your system is set up with one zone only (Typically All Call):</p>
+					<ol>
+						<li>Dial the intercom system extension.</li>
+						<li>Make your announcement.</li>
+						<li>When finished, hang up.</li>
+					</ol>
+					<p>If your intercom system is set up with multiple zones for announcements to be broadcast to specific areas. (e.g., outside, East wing, etc.):</p>
+					<ol>
+						<li>Dial the intercom system extension.</li>
+						<li>When hear tone, enter the number of the zone to which you would like to broadcast.</li>
+						<li>When hear tone, make your announcement.</li>
+						<li>When finished, hang up.</li>
+					</ol>
+	
+	</body>
+</html>

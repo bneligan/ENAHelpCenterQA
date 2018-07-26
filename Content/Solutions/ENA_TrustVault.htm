@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="9244" MadCap:lastWidth="1322" style="mc-master-page: url('../Resources/MasterPages/OtherTopics.flmsp');">
+    <head><title>ENA TrustVault</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Source+Sans+Pro:400,600" rel="stylesheet" type="text/css" />
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+        <script src="https://use.fontawesome.com/d55f30af0f.js">
+        </script>
+    </head>
+    <body>
+        <h1>ENA TrustVault</h1>
+        <p>ENA TrustVault is a flexible, cost-effective, cloud-based storage solution that enables you to store, access, and manage data via an S3 Compliant client.</p>
+        <p>As an ENA TrustVault administrator you use the my.ena.com portal to:</p>
+        <ul>
+            <li>Generate ENA TrustVault access credentials for yourself and additional users to use with any S3 compliant client</li>
+            <li>Set and manage the <b><MadCap:xref href="#Access">Access Type</MadCap:xref></b> for each user. <b><MadCap:xref href="#Access">Access Types</MadCap:xref></b> specify read/write/share privileges for how that user may access or store data in your ENA TrustVault</li>
+            <li>View usage info for your ENA TrustVault</li>
+        </ul>
+        <p>You may also use your my.ena.com ENA TrustVault portal or an S3 Compliant client to:</p>
+        <ul>
+            <li>Manage and organize data stored in your ENA TrustVault</li>
+            <li>Share urls to files stored in your ENA TrustVault </li>
+        </ul>
+        <h2>Getting Started</h2>
+        <h3>Log in to ENA TrustVault</h3>
+        <ol>
+            <li>Point your browser to <a href="https://my.ena.com/">my.ena.com</a>.</li>
+            <li>Enter your my.ena.com credentials.</li>
+            <li>Select <b>ENA TrustVault</b>.</li>
+        </ol>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA TrustVault log in.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object><![CDATA[
+		       ]]></p>
+        <h3><a name="Generate"></a>Generate your ENA TrustVault credentials</h3>
+        <p>In order to connect an S3 Compliant client to ENA TrustVault, you need to generate a unique  <b>Access key</b> and  <b>Secret key</b>. The <b>Access key</b> functions basically as a username with an S3 compliant client. The <b>Secret key</b> functions as a password. It is very important that <b>Secret keys</b> are kept confidential.</p>
+        <p>The first time you log in, you see a, <b>“Your user doesn’t have access credentials generated!”</b> message. </p>
+        <p>In order to create and manage buckets using your my.ena.com ENA TrustVault interface, you need to use your my.ena.com username when you add yourself.</p>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">You must use your my.ena.com username in order for the system to validate your account as an administrator so you have full access to all the features available in your my.ena.com ENA TrustVault portal. </p>
+        <p>To create your ENA TrustVault credentials:</p>
+        <ol>
+            <li>Enter the full username you use to log into my.ena.com into the <b>Email address or username</b> field in the <b>Add new user</b> area of the <b>Admin</b> page.</li>
+            <li>You may copy this username from the bottom of the ENA TrustVault <b>Manage</b> page or type it in manually. </li>
+            <li>Next, assign an <b><MadCap:xref href="#Access">Access Type</MadCap:xref></b> to your account. As an administrator, you will most likely want to assign <b>Full access</b> to your account.</li>
+            <li>Click <b>Add</b>.</li>
+        </ol>
+        <p>You see a green success message and the <b>Access key</b> and <b>Secret key</b> you need to connect ENA TrustVault to an S3 Compliant client. </p>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA TrustVault generate admin credentials.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h2>Administer Users</h2>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">When you are creating user credentials for others, the username can be anything you like. Those usernames are for your reference and can follow whatever scheme works best to you.</p>
+        <h3>Add user</h3>
+        <ol>
+            <li>Type a username into the <b>Email address or username</b> field in the <b>Add new user</b> area of the <b>Admin</b> page.</li>
+            <li>Select the <b><MadCap:xref href="#Access">Access Type</MadCap:xref></b> you would like to assign to that user. </li>
+            <li>Click <b>Add</b>.</li>
+        </ol>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA TrustVault add user.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Change a user’s access type</h3>
+        <p>Once a user is created, you can change the <b><MadCap:xref href="#Access">Access Type</MadCap:xref></b> assigned to their user credentials without changing their <b>Access Key</b> or <b>Secret key</b>. To change access type for a user:</p>
+        <ol>
+            <li>Select <b>Admin</b> from the menu.</li>
+            <li>Locate the user's for whom you would like to change <b><MadCap:xref href="#Access">Access Type</MadCap:xref></b>.</li>
+            <li>Click the edit pencil next to <b><MadCap:xref href="#Access">Access Type</MadCap:xref></b>.</li>
+        </ol>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA TrustVault change user access type.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Delete a user's credentials</h3>
+        <ol>
+            <li>Select <b>Admin</b> from the menu.</li>
+            <li>Locate the user's credentials you would like to delete.</li>
+            <li>Click <b>Delete</b>.</li>
+            <li>Click <b>Remove</b> in the dialogue box to confirm.</li>
+        </ol>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA TrustVault delete user credentials.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h2>Manage Your Data</h2>
+        <p>In your my.ena.com ENA TrustVault portal, buckets are the top level container for data. Buckets may contain folders or individual files. Folders may contain sub-folders or individual files.  </p>
+        <h3>Create new bucket</h3>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">In order to access the <b>New bucket</b> feature within your my.ena.com ENA TrustVault portal, you must generate <MadCap:xref href="#Generate">Generate your ENA TrustVault credentials</MadCap:xref> using your my.ena.com username and assign yourself either <b>Write</b>, <b>Read  &amp; Write</b>, or <b>Full</b> Access.   </p>
+        <ol>
+            <li>Select <b>Manage</b> from the menu.</li>
+            <li>Under <b>New bucket</b>, type in the name.</li>
+            <li>Click <b>Add</b>.</li>
+        </ol>
+        <p>In the <b>Buckets</b> window, you see:</p>
+        <ul>
+            <li>Name of the bucket</li>
+            <li>How much data is being stored in the bucket</li>
+            <li>When the bucket was created</li>
+        </ul>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA TrustVault add a new bucket.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Open a bucket</h3>
+        <ol>
+            <li>Select <b>Manage</b> from the menu.</li>
+            <li>Find the bucket you would like to open.</li>
+            <li>Click <b>Open</b>. </li>
+        </ol>
+        <p>You see a list of the folders and files in the bucket.</p>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA TrustVault open bucket.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Delete a bucket</h3>
+        <ol>
+            <li>Select <b>Manage</b> from the menu.</li>
+            <li>Find the bucket you would like to delete.</li>
+            <li>Click <b>Delete</b>. </li>
+            <li>Click <b>Delete</b> in the dialogue box to confirm.</li>
+        </ol>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA TrustVault delete bucket.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Add a folder to a bucket</h3>
+        <ol>
+            <li>Select <b>Manage</b> from the menu.</li>
+            <li><b>Open</b> the bucket to which you would like to add the folder.</li>
+            <li>Click <b>New folder</b>.</li>
+            <li>Type in the folder name.</li>
+            <li>Click the checkmark next to the name field.</li>
+        </ol>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA TrustVault add folder to a bucket.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Delete a folder from a bucket</h3>
+        <ol>
+            <li>Select <b>Manage</b> from the menu.</li>
+            <li><b>Open</b> the bucket from which you would like to delete the folder.</li>
+            <li>Select the folder.</li>
+            <li>Click <b>Delete folder</b>.</li>
+            <li>Click <b>Delete</b> in the dialogue box to confirm.</li>
+        </ol>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">A folder must be empty to be deleted. If there are files in the folder, you must delete the files before you see the <b>Delete folder</b> option.</p>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA TrustVault delete folder from bucket.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Add a new file</h3>
+        <p>You may drag and drop files from your computer into  ENA TrustVault.</p>
+        <ol>
+            <li>Open the bucket or folder to which you would like to add the files.</li>
+            <li>Drag the files from your computer into the window.</li>
+            <li>Click <b>Done</b></li>
+        </ol>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA TrustVault drag and drop files.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <p>You may also upload files.</p>
+        <ol>
+            <li>Open the bucket or folder to which you would like to add the files.</li>
+            <li>Click <b>Upload files</b>.</li>
+            <li>Select file to upload.</li>
+            <li>Click <b>Done</b></li>
+        </ol>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA TrustVault upload files.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Overwrite an existing file</h3>
+        <p>When you add a file with the same name as a file that is already in the folder, you see <b>Duplicate</b> under <b>Status</b>. To overwrite an existing file:</p>
+        <ol>
+            <li>Click <b>Overwrite</b>.</li>
+            <li>Click <b>Replace</b>.</li>
+            <li>Click <b>Done</b>.</li>
+        </ol>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA TrustVault overwrite files.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Delete a single file</h3>
+        <ol>
+            <li>Click <b>Delete</b> to the right of the file name.</li>
+            <li>Confirm by clicking <b>Remove</b> in the dialogue box.</li>
+        </ol>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA TrustVault delete single file.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Batch delete files</h3>
+        <ol>
+            <li>Click the radio button next to the files you would like to delete.</li>
+            <li>Click <b>Delete selected</b>.</li>
+            <li>Click <b>Delete</b> to confirm.</li>
+        </ol>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA TrustVault batch delete files.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Download a file</h3>
+        <p>Navigate to the file you would like to download and click <b>Download file</b> from the <b>Download/Share</b> dropdown under <b>Actions</b>.</p>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA TrustVault download files.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Make public and share</h3>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;"><b>Make public and share</b> is available to users with <b>Full Access</b>.</p>
+        <p>When you select this option in the <b>Download/Share</b> dropdown for a file, it generates a url which may be used by anyone to access the file. This url does not expire. The url may be used to access the file until you delete the file itself from ENA TrustVault. </p>
+        <p>When you select this option, the url pops up in a dialogue box for you to copy.</p>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA TrustVault make public and share.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Copy URL</h3>
+        <p>When you select this option in the <b>Download/Share</b> dropdown for a file, it generates a url that may be used by anyone to access the file for the period you choose.</p>
+        <p>When you select this option, the url pops up in a dialogue box for you to copy.</p>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA TrustVault copy url.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h2>Usage info</h2>
+        <p>You monitor how much of your allotted data you have used with the <b>Usage info</b> graph at the bottom of the <b>Manage</b> page.</p>
+        <p>Click and drag on the time line to zoom in.</p>
+        <p>Hover your mouse over a point on the timeline to see more detailed information.</p>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA TrustVault usage info.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h2><a name="Access"></a>Access Types</h2>
+        <p>When you create access credentials for a user, you specify read/write/share privileges for how that user may access or store data in your ENA TrustVault. You may assign the following types of access to a user:</p>
+        <ul>
+            <li><b>Read</b>: <i>view</i> buckets, folders, files and <i>share</i> files with an expiration date;
+            </li>
+            <li><b>Write</b>: cannot <i>view</i> buckets or files, can only <i>upload</i> files; useful primarily for an external upload application;</li>
+            <li><b>Read &amp; Write</b>: <i>view</i>, <i>add</i> and <i>delete</i> buckets, folders, files and <i>share</i> files with an expiration date;
+            </li>
+            <li><b>Full</b>: <i>Read &amp; Write</i> and <i>sharing files</i> with no expiration date.
+            </li>
+        </ul>
+    </body>
+</html>

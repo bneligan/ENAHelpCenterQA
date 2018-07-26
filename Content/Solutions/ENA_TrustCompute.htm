@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="topic" style="mc-master-page: url('../Resources/MasterPages/OtherTopics.flmsp');" MadCap:searchable="True">
+    <head>
+        <link href="../Resources/Stylesheets/tablestyle.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>ENA TrustCompute</title>
+        <script src="https://use.fontawesome.com/d55f30af0f.js">
+        </script>
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Source+Sans+Pro:400,600" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>ENA TrustCompute</h1>
+        <h1>Navigation</h1>
+        <p>The Menu can be opened at any time by using the hamburger icon in the top left corner of the screen. All ENA TrustCompute functions can be accessed from here.</p>
+        <ul>
+            <li><b>Dashboard</b>: Provides at-a-glance overview to resource allocation.
+            </li>
+            <li><b>Virtual Machines</b>: The Virtual Machines page provides an <b>Overview</b> of all currently established virtual machines (VMs) as well as <b>Performance</b> data. From here, you can click on a virtual machine to manage it, open its <b>Console</b>, or see <b>Full Details</b>.
+            </li>
+            <li><b>New VM</b>: Opens <b>Create New Virtual Machine</b> page where you configure and create new VMs.
+            </li>
+            <li><b>Disks</b>: Opens page where you create and configure new disks and manage existing disks. This includes deleting, taking snapshots, and attaching and detaching disks from a VM.
+            </li>
+            <li><b>Networking</b>: Allows you to acquire public IPs, and create, view, and edit Static NAT, Load Balancing, Port Forwarding, and Firewall rules.
+            </li>
+            <li><b>Group Assignment</b>: You have the option to organize VMs into groups to make managing them easier. You create new groups and assign or remove VMs from existing groups here.
+            </li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-menu.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+        </ul>
+        <h1>Dashboard</h1>
+        <p>The ENA&#160;TrustCompute Dashboard provides an overview of resource allocation and use.</p>
+        <p>You may view global resource allocation data, or view resource allocation data for each zone.</p>
+        <h2>ENA Trust Compute Zones</h2>
+        <p>ENA TrustCompute Virtual Private Clouds (VPCs) are hosted in one of two ENA data center zones.   For package sizes of medium or higher, a customer may request to be deployed in a multi-zone configuration, with resources split between the two zones. Zones are:</p>
+        <ul>
+            <li><b>NSVLTN-01</b>: Customer resources allocated in ENA’s data center located in Nashville, TN 
+            </li>
+            <li> <b>IPLSIN-01</b>: Customer resources allocated in ENA’s data center located in Indianapolis, IN</li>
+        </ul>
+        <h1>Virtual Machines</h1>
+        <h2>Create New VM</h2>
+        <p>To create a new VM, click <b>New VM</b> on the menu or <b>Virtual Machines</b> page.</p>
+        <p>You may opt to create a VM with your choice of operating system (<i>Basic</i>) or with your choice of pre-configured application stack (<i>Stack</i>).</p>
+        <p>
+            <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-access-new-vm.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Create New Basic Virtual Machine</h3>
+        <p>In the <b>Basic</b> tab, you see operating systems available for use on a virtual machine.   </p>
+        <ol>
+            <li>Select an operating system.</li>
+            <li>Select version.</li>
+            <li>Configure the options shown in the table below.</li>
+        </ol>
+        <table style="width: 100%;mc-table-style: url('../Resources/Stylesheets/tablestyle.css');" class="TableStyle-tablestyle" cellspacing="0">
+            <col class="TableStyle-tablestyle-Column-Column1" />
+            <col class="TableStyle-tablestyle-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-tablestyle-Head-Header1">
+                    <th class="TableStyle-tablestyle-HeadE-Column1-Header1">Option</th>
+                    <th class="TableStyle-tablestyle-HeadD-Column2-Header1">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>VM name</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Names are restricted to a maximum length of 63 characters. Allowed characters include letters, numbers, dashes, and spaces. Valid names must start with a letter and finish with either a letter or number. Trailing dashes and/or spaces are not allowed.</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>Zone </b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">If your ENA TrustCompute environment is deployed across multiple geographic zones, you may create your VM in either zone as long as the requested resources are available.   If you are deployed in a single geographic zone, your VM will automatically default to that zone.</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>Operating system</b> </td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Specify the root disk size for your new VM.   The default disk size is displayed.  The default size can be changed but if a disk size larger than the default is chosen you will need to go back and expand the disk volume via the operating system after VM creation.</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>System Offering</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Memory and vCPU sizings for your new VM.</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyB-Column1-Body1"><b>Storage </b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyA-Column2-Body1"> Data disk size for your new VM.   ENA TrustCompute supports data disk size up to 6 TB.</td>
+                </tr>
+            </tbody>
+        </table>
+        <ol start="5">
+            <li>Click <b>Create</b>.</li>
+            <li>Click <i class="fas fa-sync"></i> to refresh list to see newly created VM.</li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-create-new-vm-basic.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+        </ol>
+        <h3>Create New Virtual Machine Pre-Configured with Application Stack</h3>
+        <ol>
+            <li>Click the <b>Stacks</b> tab. You see a selection of VMs that have been pre-configured with an application stack.</li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-create-new-vm-stack-select.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+            <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;"> ENA TrustCompute provisions each stack with a basic configuration.   Customers are responsible for further configuration, administration, and maintenance of the stack.   If you would like additional help, please notify your Account Services Manager for options.</p>
+            <li>Select a stack. You see the following <b>Stack description</b> information:</li>
+            <table style="width: 100%;mc-table-style: url('../Resources/Stylesheets/tablestyle.css');" class="TableStyle-tablestyle" cellspacing="0">
+                <col class="TableStyle-tablestyle-Column-Column1" />
+                <col class="TableStyle-tablestyle-Column-Column2" />
+                <thead>
+                    <tr class="TableStyle-tablestyle-Head-Header1">
+                        <th class="TableStyle-tablestyle-HeadE-Column1-Header1">Option</th>
+                        <th class="TableStyle-tablestyle-HeadD-Column2-Header1">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-tablestyle-Body-Body1">
+                        <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>Stack description</b>
+                        </td>
+                        <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Name of the application for which the stack is pre-configured.</td>
+                    </tr>
+                    <tr class="TableStyle-tablestyle-Body-Body1">
+                        <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>Deployment information </b>
+                        </td>
+                        <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Deployment notes and instructions (e.g., "After logging in, check Email as the Root user for Wordpress credentials.").</td>
+                    </tr>
+                    <tr class="TableStyle-tablestyle-Body-Body1">
+                        <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>Project site</b> </td>
+                        <td class="TableStyle-tablestyle-BodyD-Column2-Body1">URL to application site where you will find additional information about the application which may include user notes, help documentation, FAQ, forums, etc.</td>
+                    </tr>
+                    <tr class="TableStyle-tablestyle-Body-Body1">
+                        <td class="TableStyle-tablestyle-BodyB-Column1-Body1"><b>OS type</b>
+                        </td>
+                        <td class="TableStyle-tablestyle-BodyA-Column2-Body1">The OS on which the stack is built.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-create-new-vm-stack-description.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+            <li>Configure hardware.</li>
+            <table style="width: 100%;mc-table-style: url('../Resources/Stylesheets/tablestyle.css');" class="TableStyle-tablestyle" cellspacing="0">
+                <col class="TableStyle-tablestyle-Column-Column1" />
+                <col class="TableStyle-tablestyle-Column-Column2" />
+                <thead>
+                    <tr class="TableStyle-tablestyle-Head-Header1">
+                        <th class="TableStyle-tablestyle-HeadE-Column1-Header1">Option</th>
+                        <th class="TableStyle-tablestyle-HeadD-Column2-Header1">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-tablestyle-Body-Body1">
+                        <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>VM name</b>
+                        </td>
+                        <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Names are restricted to a maximum length of 63 characters. Allowed characters include letters, numbers, dashes, and spaces. Valid names must start with a letter and finish with either a letter or number. Trailing dashes and/or spaces are not allowed.</td>
+                    </tr>
+                    <tr class="TableStyle-tablestyle-Body-Body1">
+                        <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>Zone </b>
+                        </td>
+                        <td class="TableStyle-tablestyle-BodyD-Column2-Body1">If your ENA TrustCompute environment is deployed across multiple geographic zones, you may create your VM in either zone as long as the requested resources are available.   If you are deployed in a single geographic zone, your VM will automatically default to that zone.</td>
+                    </tr>
+                    <tr class="TableStyle-tablestyle-Body-Body1">
+                        <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>Operating system</b> </td>
+                        <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Specify the root disk size for your new VM.   The default disk size is displayed.  The default size can be changed but if a disk size larger than the default is chosen you will need to go back and expand the disk volume via the operating system after VM creation.</td>
+                    </tr>
+                    <tr class="TableStyle-tablestyle-Body-Body1">
+                        <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>System Offering</b>
+                        </td>
+                        <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Memory and vCPU sizings for your new VM.</td>
+                    </tr>
+                    <tr class="TableStyle-tablestyle-Body-Body1">
+                        <td class="TableStyle-tablestyle-BodyB-Column1-Body1"><b>Storage </b>
+                        </td>
+                        <td class="TableStyle-tablestyle-BodyA-Column2-Body1">Data disk size for your new VM.   ENA TrustCompute supports data disk size up to 6 TB.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">Additional configuration variables may be available for a stack.</p>
+            <li>Configure stack.</li>
+            <table style="width: 100%;mc-table-style: url('../Resources/Stylesheets/tablestyle.css');" class="TableStyle-tablestyle" cellspacing="0">
+                <col class="TableStyle-tablestyle-Column-Column1" />
+                <col class="TableStyle-tablestyle-Column-Column2" />
+                <thead>
+                    <tr class="TableStyle-tablestyle-Head-Header1">
+                        <th class="TableStyle-tablestyle-HeadE-Column1-Header1">Option</th>
+                        <th class="TableStyle-tablestyle-HeadD-Column2-Header1">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-tablestyle-Body-Body1">
+                        <td class="TableStyle-tablestyle-BodyB-Column1-Body1"><b>Hostname</b>
+                        </td>
+                        <td class="TableStyle-tablestyle-BodyA-Column2-Body1">Fully qualified domain name to assign to the virtual machine.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <li>Once you have configured your Basic or Stack VM, click <b>Create</b> to build the machine.</li>
+        </ol>
+        <h2>Manage Virtual Machines</h2>
+        <h3>View Data for all Virtual Machines</h3>
+        <p>Select <b>Virtual Machines</b> from the menu. You can view, sort, and search for existing VMs here as well as view both <b>Overview</b> and <b>Performance</b> data. </p>
+        <p>
+            <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-access-new-vm.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h4>Overview</h4>
+        <p>Click <b>Overview</b> to view basic and capacity information about your VMs.</p>
+        <p>
+            <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-vm-overview.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h4>Performance</h4>
+        <p>Click <b>Performance</b> to view basic and usage information about your VMs. </p>
+        <p>
+            <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-vm-performance.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <p>In addition to the basic information of <b>Type</b>, <b>OS</b>, and <b>name</b>, you see the information described in the table below: </p>
+        <table style="width: 100%;mc-table-style: url('../Resources/Stylesheets/tablestyle.css');" class="TableStyle-tablestyle" cellspacing="0">
+            <col class="TableStyle-tablestyle-Column-Column1" />
+            <col class="TableStyle-tablestyle-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-tablestyle-Head-Header1">
+                    <th class="TableStyle-tablestyle-HeadE-Column1-Header1">Option</th>
+                    <th class="TableStyle-tablestyle-HeadD-Column2-Header1">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>Status</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1" style="padding: 0px;">
+                        <table style="width: 100%;">
+                            <col />
+                            <tbody>
+                                <tr>
+                                    <td style="font-weight: normal;" colspan="2"><b>Creating</b>: VM is being provisioned</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: normal;" colspan="2"><b>Starting</b>: VM is being powered on</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: normal;" colspan="2"><b>Powered On</b>: VM is available and running</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: normal;" colspan="2"><b>Stopping</b>: VM is being powered off</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: normal;" colspan="2"><b>Stopped</b>: VM has been powered off and is not available</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: normal;" colspan="2"><b>Updating</b>: VM is being modified</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: normal;" colspan="2"><b>Deleting</b>: VM is being deleted</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: normal;" colspan="2"><b>Destroyed</b>: VM has been deleted and is scheduled for permanent removal</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: normal;" colspan="2"><b>Recovering</b>: VM is being recovered from its <b>Destroyed</b> state and is no longer scheduled for permanent removal</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: normal;" colspan="2"><b>Expunged</b>:  VM has been permanently deleted </td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: normal;" colspan="2"><b>Error</b>: VM is in an error state and is not usable</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="font-weight: bold;">IP</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Internal IP addresses  assigned to your VM</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="font-weight: bold;">CPU</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Current percent utilized</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="font-weight: bold;">Network read</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Current network read</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="font-weight: bold;">Network write</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Current network writes</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="font-weight: bold;">Disk read</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Current disk reads</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="font-weight: bold;">Disk write</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Current disk writes</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyB-Column1-Body1" style="font-weight: bold;">IOPS</td>
+                    <td class="TableStyle-tablestyle-BodyA-Column2-Body1">Current input/output operations per second </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If a VM is stopped, all  its counters will be 0.</p>
+        <h3>Refresh Virtual Machine List</h3>
+        <p>To refresh the list of VMs to reflect the most recent changes, click &#160;<i class="fas fa-sync"></i>.</p>
+        <p>
+            <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-vm-refresh.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Filter Virtual Machine List</h3>
+        <p>You can use the filtering tools at the top of the <b>Virtual machines</b> <b>Overview</b> and <b>Performance</b> tabs to sort the data by <b>Show by group</b> or <b>Status</b>, or type the name of a specific machine into the <b>Find virtual machine</b> field. </p>
+        <h3>Manage Virtual Machines</h3>
+        <p>When you click on a VM, you see basic capacity and usage data as well as management tools.</p>
+        <p>
+            <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-vm-manage.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Rename a Virtual Machine</h3>
+        <p>To rename a VM, go to the list of all VMs and click the pencil icon next to the VM’s name. Enter the new name and click the checkmark to confirm the new name or click the X to cancel. The machine will be stopped while the new name is being assigned.</p>
+        <p>
+            <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-vm-rename.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Stop a Virtual Machine</h3>
+        <ol>
+            <li>Click on the VM name.</li>
+            <li>Click <b>Stop</b>.</li>
+            <li>Click <b>Stop</b> to confirm.</li>
+        </ol>
+        <p>You can still view the full details of a VM that is in a <b>Stopping</b> state, but all other options are unavailable until it is fully stopped. A fully stopped VM can be modified, deleted, reinstalled, or have its disks customized, but the console is unavailable. </p>
+        <p>
+            <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-vm-stop.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Start a Stopped VM</h3>
+        <ol>
+            <li>Click on the VM name.</li>
+            <li>Click <b>Run</b>.</li>
+            <li>Click <b>Run</b> to confirm.</li>
+        </ol>
+        <p>
+            <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-vm-run.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Modify a Virtual Machine</h3>
+        <p>Click <b>Modify</b> to open the <b>Modify Virtual Machine</b> page where you can change the VM's <b>System offering</b>, <b>Storage</b>, and <b>vCPU</b>. </p>
+        <p>You see a table with current use information. When you make a change, the table shows how the change will affect your available resources. </p>
+        <p>You can also modify the <b>Groups</b> to which the VM is assigned from the <b>Modify virtual machine</b> page.</p>
+        <p>
+            <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-vm-modify.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Delete a Virtual Machine</h3>
+        <p>Deletes the VM and sets its status to <b>Destroyed</b>, where it will remain for 24 hours before being deleted permanently. A destroyed VM can either be deleted permanently or restored within 24 hours. If a VM is deleted permanently, it is erased and unrecoverable. If a VM is restored, it reverts to its state prior to being deleted.</p>
+        <ol>
+            <li>Click on the VM name.</li>
+            <li>Click <b>Delete</b>.</li>
+            <li>Click <b>Delete</b> to confirm.</li>
+        </ol>
+        <p>
+            <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-vm-delete.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">When a VM is permanently deleted, anyone in your organization working in ENA TrustCompute receives a notice to refresh the VM list. Refreshing removes the deleted VM from the list.</p>
+        <h3>Restore a Virtual Machine</h3>
+        <p>A virtual machine in a destroyed state may be restored for up to 24 hours after it is deleted.   </p>
+        <ol>
+            <li>Click on the VM name.</li>
+            <li>Click <b>Restore</b>.</li>
+            <li>Click <b>Restore</b> to confirm.</li>
+            <li>VMs are restored to a <b>Stopped</b> state. Click <b>Run</b> if you would like to restart.</li>
+        </ol>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If a data volume attached to a virtual machine is deleted, it will not be available to the restored virtual machine.</p>
+        <p>
+            <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-vm-restore.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Manage Disks for a Virtual Machine</h3>
+        <p>Disk information is divided into three sections: <b>Add New Disk</b>, <b>Disks Attached to Current VM</b>, and <b>Unattached Disks</b>. You can open or collapse each section by clicking anywhere in the heading bar. To exit this page and return to the Virtual Machines page, click <b>Exit Disk Management</b>.</p>
+        <h4><a name="Add"></a>Add new disk to a virtual machine</h4>
+        <p>To add a new disk, enter the name of the disk, specify its capacity, and click <b>Add Disk</b>. This creates a new disk and attaches it to this VM.</p>
+        <p>
+            <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-vm-disk-add.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h4>Detach disk from a virtual machine</h4>
+        <p>Open <b>Disks attached to current VM</b>, and click <b>Detach</b> to the right of the disk you would like to remove from the VM. </p>
+        <p>
+            <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-vm-disk-detach.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h4>Attach disk to a virtual machine</h4>
+        <p>Open <b>Unattachd disks</b>, and click <b>Attach</b> to the right of the disk you would like to attach o the VM. </p>
+        <p>
+            <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-vm-disk-attach.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h3>Open Console for a Virtual Machine</h3>
+        <p>Click <b>Console</b> to open up the console in a new window. The frame may need to be resized to display the full window. This is the equivalent of plugging in a physical keyboard, mouse, and monitor to a physical server.</p>
+        <h3>Reinstall a Virtual Machine</h3>
+        <p>Wipes the current state of the VM and resets it back to the original template chosen during the creation of the VM.</p>
+        <h3>View Full Details for a Virtual Machine</h3>
+        <p>Shows all available VM info and VM history. History may be viewed for the past hour, day, week, or month for:</p>
+        <ul>
+            <li>Network (bit/s)</li>
+            <li>Disks (byte/s)</li>
+            <li>IOPS (input/output operations per second )</li>
+        </ul>
+        <p>
+            <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-vm-details-history.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h1>Disks</h1>
+        <h2>Create Disk</h2>
+        <ol>
+            <li>Click anywhere in the <b>Create Disk</b> header bar to open it.</li>
+            <li>Enter the name of the new disk.</li>
+            <li>Select its <b>Capacity</b>.</li>
+            <li>Click Create <b>Disk</b>. </li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-disks-create.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+            <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">You may also create a new disk in <b><MadCap:xref href="#Add">Add new disk</MadCap:xref></b> under <b>Virtual machine details.</b> </p>
+        </ol>
+        <h2>Delete Disk</h2>
+        <ol>
+            <li>Find the disk you would like to delete in the <b>Available disks</b> list.</li>
+            <li>Click <b>Delete</b>.</li>
+            <li>Click <b>Delete</b> to confirm.</li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-disks-delete.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+        </ol>
+        <h2>Disk Snapshots</h2>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">You can retain up to six snapshots per disk.</p>
+        <h3>Take Snapshot</h3>
+        <p>Taking a snapshot of a disk creates a point in time to which the disk can be restored. To take a snapshot.</p>
+        <ol>
+            <li>Find the disk for which you would like to take a snapshot in the <b>Available disks</b> list.</li>
+            <li>Click <b>Snapshot</b>.</li>
+            <li>Enter <b>Snapshot</b> name.</li>
+            <li>Click <b>Create snapshot</b>.</li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-disks-snapshot.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+        </ol>
+        <h3>Load Snapshot</h3>
+        <p>To revert a disk back to a snapshot:</p>
+        <ol>
+            <li>In the <b>Available disks</b> list, click on the name of the disk you would like to revert back to a snapshot.</li>
+            <li>In <b>Manage disk snapshots</b>, click <b>Load snapshot</b>.</li>
+            <li>Click <b>Load</b> to confirm.</li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-disks-snapshot-load.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+        </ol>
+        <h3>Delete Snapshot</h3>
+        <p>To delete a snapshot, click on the disk name you would like to revert.</p>
+        <ol>
+            <li>In the <b>Available disks list</b>, click on the name of the disk for which you would like to delete a snapshot.
+			</li>
+            <li>In <b>Manage disk snapshots</b>, click <b>Delete snapshot</b>.</li>
+            <li>Click <b>Delete</b> to confirm.</li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-disks-snapshot-delete.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+        </ol>
+        <h2>Resize a Disk</h2>
+        <p>You can increase the size of a data disk that is not attached to a VM. To modify the size of an unattached disk:</p>
+        <ol>
+            <li>In the <b>Available disks list</b>, find the name of the disk you would like to detach.
+			</li>
+            <li>Click <b>Resize</b>.</li>
+            <li>In the <b>Select capacity</b> dropdown menu, select a capacity, or select custom to enter a different value.</li>
+            <li>Click <b>Resize</b>.</li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-disks-resize.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+        </ol>
+        <h2>Detach Disk from VMs</h2>
+        <p>To detach a disk from all VMs:</p>
+        <ol>
+            <li>In the <b>Available disks list</b>, find the name of the disk you would like to detach.
+			</li>
+            <li>Click <b>Detach</b>.</li>
+            <li>Click <b>Detach</b> to confirm.</li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustCompute/ENA-TrustCompute-disks-detach.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+        </ol>
+        <h1>Networking</h1>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">Much of this information is for advanced network configuration only. Access Control List rules (ACLs) are automatically created when you create a Port Forwarding or Load Balancing rule.</p>
+        <p>You direct traffic from the internet into ENA TrustCompute VMs in the <b>Networking</b> area. New VMs are accessible to your internal network. If you would like a VM to be accessible to people outside of your network, you configure it here.</p>
+        <h2>Public IPs</h2>
+        <p>You see your current allocation of <b>Public IPs</b> here. You can sort the list by the IP’s <b>Label</b> or <b>Address</b>.</p>
+        <p>You can see if an IP is being used as a <b>SN</b> (Static NAT), <b>LB</b> (Load Balancer), <b>PF</b> (Port Forward), or is <b>Available</b> to be assigned.</p>
+        <p>
+            <img src="../Resources/Images/ENA TrustCompute/Networking_-_Public_IPs.png" />
+        </p>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">The <b>Source NAT</b> is the default outbound IP which anyone outside of your network sees when traffic comes from your VMs. A <b>Source NAT</b> IP is created at random when your ENA TrustCompute service is initially provisioned.</p>
+        <h3>Acquire IP</h3>
+        <p>To acquire a new IP, click <b>Acquire IP</b>. Once you have named the new IP and clicked <b>Done</b>, it is acquired and added to the list. By default, the next IP in the list of IPs available to you is allocated.</p>
+        <p>
+            <img src="../Resources/Images/ENA TrustCompute/Networking_-_Acquire_IPs.png" />
+        </p>
+        <h3>Action</h3>
+        <h4>Delete</h4>
+        <p>Click <b>Delete</b> to remove an IP from the list of allocated IPs and place it back in the list of IPs to be acquired.</p>
+        <p>
+            <img src="../Resources/Images/ENA TrustCompute/Networking_-_Acquire_IPs1.png" />
+        </p>
+        <h4>Auto-generated Firewall rules</h4>
+        <p>Click <b>Firewall</b> in the Actions column to open a description of auto-generated Firewall rules for that IP.</p>
+        <p>
+            <img src="../Resources/Images/ENA TrustCompute/Networking_-_Acquire_IPs2.png" />
+        </p>
+        <h2>Static NAT</h2>
+        <p>A <b>Static Nat</b> allows you to create a 1-1 association between one of the IPs in your list and a VM inside your network. By default, all of your VMs appear to be coming from the Source NAT IP address. A <b>Static NAT</b> allows traffic from a specific machine to look like it is coming from a particular IP address, and routes traffic from the internet to this single machine.</p>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">A <b>Static NAT</b> is always between a Public IP and an internal machine.</p>
+        <h3>Create New Static NAT Rule</h3>
+        <p>Click anywhere in the <b>Create a new Static NAT</b> rule bar to open the create tool. Select the <b>Public IP</b> address that you want all traffic from the VM to appear to be coming from and the <b>Destination VM</b> to which you want all traffic to be directed. Click <b>Create</b>.</p>
+        <p>
+            <img src="../Resources/Images/ENA TrustCompute/Networking_-_Static_NAT.png" />
+        </p>
+        <h3>Static NAT Rules</h3>
+        <p>Here you can view the list of current <b>Static NAT Rules</b> and see which <b>Public IPs</b> are tied to which VMs. You can sort the list up or down by <b>Public IP</b>, <b>IP Label</b>, <b>Destination VM</b>, or <b>Destination IP.</b> You can also delete a <b>Static NAT Rule</b> here.</p>
+        <p>Any Public IPs attached to a VM via a Static NAT rule will have their statuses updated from <b>Available to SN</b>.</p>
+        <p>
+            <img src="../Resources/Images/ENA TrustCompute/Networking_-_Static_NAT2.png" />
+        </p>
+        <h2>Load Balancing</h2>
+        <p>You use <b>Load Balancing Rules</b> to route tcp traffic from a Public IP to more than one VM.</p>
+        <h3>Create Load Balancing Rule</h3>
+        <p>Click anywhere in the <b>Create Load Balancing Rule</b> bar to open the panel. Add information to each field and select the <b>Algorithm</b> for balancing the load.</p>
+        <ul>
+            <li><b>roundrobin</b> directs every incoming connection to the next VM in the list. If there are 3 VMs and 4 incoming connections, the first connection will be directed to the first VM, the second to the second, the third to the third, and the fourth will circle around and be directed to the first VM.</li>
+            <li><b>leastconn</b> directs traffic to the VM with the least established inbound connections.</li>
+            <li><b>source</b> directs traffic from similar sources on the internet to the same VM.'</li>
+        </ul>
+        <p>After selecting your preferred algorithm, select all the VMs to which you wish to apply this Load Balancing rule. Click <b>Create</b> and it will be added to the below list of <b>Load Balancing Rules</b>.</p>
+        <p>
+            <img src="../Resources/Images/ENA TrustCompute/Networking_-_Load_Balancing.png" />
+        </p>
+        <h3>Load Balancing Rules</h3>
+        <p>The list of <b>Load Balancing Rules</b> can be sorted by <b>LB Label</b>, <b>Public IP</b>, <b>IP Label</b>, <b>Public Port</b>, <b>Private Port</b>, the <b>Destination VMs</b>, or the <b>Algorithm</b> used.</p>
+        <p>Each rule can be edited, deleted, or you can open the <b>Firewall Rules</b> that apply to this <b>Load Balancing Rule</b>.</p>
+        <p>Click <b>Edit</b> to change a Load Balancing Rule's Label or Algorithm, or remove or add VMs to the rule.</p>
+        <p>
+            <img src="../Resources/Images/ENA TrustCompute/Networking_-_Load_Balancing2.png" />
+        </p>
+        <h2>Port Forwarding</h2>
+        <p>Port Forward Rules are created to route tcp or udp traffic from a public IP to a single internal VM.</p>
+        <h3>Create Port Forwarding Rule</h3>
+        <p>Click anywhere in the <b>Create Port Forwarding Rule</b> bar to open the panel. Select the <b>Public IP</b>, the <b>Destination VM</b>, and the <b>Public</b> and <b>Private Port Ranges.</b> Select <b>tcp</b> or <b>udp</b> from the <b>Protocol</b> drop down menu.</p>
+        <p>
+            <img src="../Resources/Images/ENA TrustCompute/Networking_-_Port_Forwarding.png" />
+        </p>
+        <h3>Manage Port Forwarding Rules</h3>
+        <p>The list of <b>Port Forwarding Rules</b> can be sorted up or down by <b>Public IP</b>, the <b>IP Label</b>, the <b>Destination VM</b>, the <b>Destination IP</b>, the range of <b>Private Ports</b>, the range of <b>Public Ports</b>, or the <b>Protocol</b>. Each rule can be deleted, modified, or you can open the <b>Firewall Rules</b> regarding this <b>Port Forwarding Rule</b>.</p>
+        <p>
+            <img src="../Resources/Images/ENA TrustCompute/Networking_-_Port_Forwarding2.png" />
+        </p>
+        <h2>Firewall</h2>
+        <p>When you create a networking rule, the system automatically generates an Access Control List (ACL) rule that allows the traffic through. You may create additional firewall rules.</p>
+        <h3>Create Firewall Rule</h3>
+        <p>Click anywhere in the <b>Create Firewall Rule</b> bar to open the panel.</p>
+        <h4>CIDR</h4>
+        <p>The <b>CIDR</b> (Classless Inter-Domain Routing) is always the source of the traffic. Here you input the IP address(es) for which you wish to control traffic to or from.</p>
+        <ul>
+            <li>0.0.0.0.0 is the network notation for all available IP space.</li>
+            <li>192.167.0.5/32, for example, would only affect this single IP.</li>
+            <li>11.12.13.0/24, for example, would affect IPs 11.12.13.1 through 11.12.13.255 because of the 24bit subnet mask.</li>
+        </ul>
+        <h4>Protocol</h4>
+        <p><b>Protocol</b> defines which type of traffic is affected by this <b>Firewall Rule</b>.</p>
+        <ul>
+            <li><b>All</b>: All forms of traffic</li>
+            <li><b>TCP</b>: Transmission Control Protocol</li>
+            <li><b>UDP</b>: User Datagram Protocol</li>
+            <li>ICMP: Internet Control Message Protocol</li>
+        </ul>
+        <h4>Direction</h4>
+        <p>The two choices here are <b>Inbound</b> and <b>Outbound</b> traffic.</p>
+        <ul>
+            <li><b>Inbound</b> is always public because it is coming from the outside world into your cloud.</li>
+            <li><b>Outbound</b> is traffic that originates from within your network and then leaves your network.</li>
+        </ul>
+        <h4>Action</h4>
+        <p>Once you have specified the direction and destinations of the traffic, you may then choose whether to <b>Allow</b> or <b>Deny</b> this traffic.</p>
+        <h4>Comment</h4>
+        <p>Writing a <b>Comment</b> for a <b>Firewall Rule</b> enables you to keep track of where a rules is coming from and what its purpose is. A rule automatically generated by the system begins with “System Generated ACL for…” followed by the type of Network Rule for which it was created. If you leave the comment section blank, it simply reads “n/a”.</p>
+        <h4>Create</h4>
+        <p>When you have entered the <b>CIDR</b>, <b>Protocol</b>, <b>Direction</b>, and <b>Action</b>, click <b>Create</b> to add your new Firewall Rule to the Firewall list below.</p>
+        <p>
+            <img src="../Resources/Images/ENA TrustCompute/Networking_-_Firewall.png" />
+        </p>
+        <h4>Firewall</h4>
+        <p>This list contains all existing Firewall Rules and can be sorted using <b>Show</b> to display all rules the rules surrounding a particular IP address/address range.</p>
+        <p>Each Firewall Rule shows the information entered when it was created. Each rule can be <b>Edited</b> to revise this information or <b>Deleted</b>. A deleted rule is unrecoverable.</p>
+        <p>Deleting the system generated access rules does not affect the actual load balancing or port forwarding. The same load balancing or port forwarding rules will remain, but you can change the way the rule is generated if you like.</p>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">The order of this list is important. The system applies rules in list order.</p>
+        <p style="font-weight: bold;">
+            <img src="../Resources/Images/ENA TrustCompute/Networking_-_Firewall2.png" />
+        </p>
+        <h1>Group Assignment</h1>
+        <p>You can sort and classify VMs into groups to help you organize and manage your workflow and resources. Groupings are optional and do not affect functionality.</p>
+        <p>The <b>Group Assignment</b> page can be accessed from the menu.</p>
+        <p>It shows list of all VMs and the groups to which they are assigned. To find a particular VM, enter its name in the <b>Find VM</b> box. You can also filter all VMs by status using the <b>Show</b> drop down.</p>
+        <p>By default, all VMs are placed in an <b>Unassigned</b> group. To place a VM in a group, type the name of an existing group in the <b>Groups</b> bar and it will autocomplete.</p>
+        <p>If you want to place a VM in a group that does not exist yet, just enter the name of the new group in the <b>Groups</b> bar and press <b>Enter</b>. This creates the new group and assigns the VM to it.</p>
+        <p><b>Group Assignments</b> can also be viewed on the, <b>Virtual Machines</b>, and <b>Domain Overview</b> pages.</p>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">VMs may be assigned to more than one group.</p>
+        <p>&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h3>Check voicemail from another ENA SmartVoice phone</h3>
+        <ol>
+            <li>Press the <b>Messages</b> button or icon of the phone you are using.</li>
+            <li>When you hear the voicemail greeting, press the star key (*).</li>
+            <li>Enter your full 10-digit number when prompted.</li>
+
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If you have an extension-only number, your full 10-digit number will be a customer prefix followed by your extension. If you do not know your customer prefix, check with your system administrator.</p>
+		            <li>Follow the prompts.</li>
+			        </ol>
+    </body>
+</html>

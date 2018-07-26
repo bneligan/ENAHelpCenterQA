@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="815" MadCap:lastWidth="1068">
+    <head>
+        <link href="Resources/Stylesheets/tablestyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>This is a snippet</p>
+        <table style="width: 100%;mc-table-style: url('Resources/Stylesheets/tablestyle.css');" class="TableStyle-tablestyle" cellspacing="0">
+            <col class="TableStyle-tablestyle-Column-Column1" />
+            <col class="TableStyle-tablestyle-Column-Column2" style="width: 712px;" />
+            <col class="TableStyle-tablestyle-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-tablestyle-Head-Header1">
+                    <th class="TableStyle-tablestyle-HeadE-Column1-Header1">Type</th>
+                    <th class="TableStyle-tablestyle-HeadF-Column2-Header1">Description</th>
+                    <th class="TableStyle-tablestyle-HeadD-Column2-Header1">&#160;</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1">Policy name</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">The name assigned to your account by ENA. Typically this is your school district name.</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1">Category</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Attack category. DoS, DDoS, etc.</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1">Risk</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Level established by the software and set based on datasets of attacks across the internet over long periods of time. See risk level descriptions <a href="#Risk">below</a>.</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1">Start time</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">The time at which ENA NetDefender monitoring alerted on the anomaly</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1">SRC IP</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Source IP address – if multiple sources, “Multiple” is presented. </td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1">DST IP</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Destination IP address – if multiple destinations, “Multiple” is presented. <p>ENA CTAC will be able to provide more granular information on the targets of those attacks if requested.</p></td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1">DST port</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Destination port.</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1">Device IP</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">IP&#160;of targeted device.</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1">Direction</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">“Outbound” refers to leaving the ENA NetDefender platform and moving toward your network.</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1">Action type</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Action taken by ENA NetDefender to either drop traffic or, in some cases, decide to permit traffic forward to your network.</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1">Inbound (bytes)</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Inbound traffic in bytes per second.</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyB-Column1-Body1">Inbound (packets)</td>
+                    <td class="TableStyle-tablestyle-BodyC-Column2-Body1">Inbound traffic in packets per second.</td>
+                    <td class="TableStyle-tablestyle-BodyA-Column2-Body1">&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

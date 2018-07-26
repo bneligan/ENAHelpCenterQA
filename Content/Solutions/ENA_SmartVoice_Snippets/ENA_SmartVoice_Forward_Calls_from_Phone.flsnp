@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="827" MadCap:lastWidth="1097">
+    <head>
+    </head>
+    <body>
+        <h2>Forward Calls from Phone</h2>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">ENA SmartVoice extensions assigned a Pro Feature Package are forwarded using the <b>Reach Me</b> function in the ENA SmartVoice User Portal and not the access (star) codes show below.</p>
+        <h3>How do I forward all calls to another phone?</h3>
+        <p>To turn on immediate call forwarding for all calls:</p>
+        <ol>
+            <li>Dial <b>*72</b> followed by the number to which you would like to forward calls.</li>
+            <li>Press <b>Send</b> or <b>Dial</b>.</li>
+        </ol>
+        <p>To turn off immediate call forwarding:</p>
+        <ol>
+            <li>Dial <b>*73</b></li>
+            <li>Press <b>Send</b> or <b>Dial</b>.</li>
+        </ol>
+        <h3>How do I forward calls to another phone if I don't answer in a certain amount of time?</h3>
+        <p>To turn on call forwarding if no answer:</p>
+        <ol>
+            <li>Dial <b>*92</b> followed by the number to which you would like to forward calls.</li>
+            <li>Press <b>Send</b> or <b>Dial</b>.</li>
+        </ol>
+        <p>To turn off call forwarding if no answer:</p>
+        <ol>
+            <li>Dial <b>*93</b></li>
+            <li>Press <b>Send</b> or <b>Dial</b>.</li>
+        </ol>
+        <p>
+            <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">You set how long your phone rings before being forwarded using the the <b>Reach Me</b> function in the <a href="../ENA_SmartVoice_User_Portal.htm">ENA SmartVoice User Portal</a>.</p>
+        </p>
+    </body>
+</html>

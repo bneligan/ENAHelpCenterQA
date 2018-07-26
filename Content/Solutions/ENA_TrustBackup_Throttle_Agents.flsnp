@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="909" MadCap:lastWidth="1094">
+    <head>
+    </head>
+    <body>
+        <h3>Throttle agent</h3>
+        <p>You can limit the amount of bandwidth an agent uses during upload and download.</p>
+        <p>To limit an agent's upload speed:</p>
+        <ol>
+            <li>Go to <b>Actions</b> for that agent on the <b>Agents</b> page.</li>
+            <li>Click <b>Throttle</b>.</li>
+            <li>Enter a number in the <b>Maximum upload speed</b> field and select the unit of measure you would like to use from the drop down. </li>
+            <li>Click <b>Apply</b>.</li>
+        </ol>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-maximum-upload-agent.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <p>To limit an agent's download speed:</p>
+        <ol>
+            <li>Go to <b>Actions</b> for that agent on the <b>Agents</b> page.</li>
+            <li>Click <b>Throttle</b>.</li>
+            <li>Enter a number in the <b>Maximum download speed</b> field and select the unit of measure you would like to use from the drop down. </li>
+            <li>Click <b>Apply</b>.</li>
+        </ol>
+        <p>
+            <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-maximum-download-agent.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+    </body>
+</html>

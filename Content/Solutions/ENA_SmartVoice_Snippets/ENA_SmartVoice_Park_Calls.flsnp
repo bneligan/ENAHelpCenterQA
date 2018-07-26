@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="491" MadCap:lastWidth="1442">
+    <head>
+    </head>
+    <body>
+        <h1>Park Calls</h1>
+        <p><b>Call Park</b> allows you to place a call on hold so it can be retrieved from any other ENA SmartVoice phone in your building.</p>
+        <h2>Park a Call</h2>
+        <p>To park a call:</p>
+        <ol>
+            <li>Press <b>Transfer</b>. The caller is automatically placed on hold.</li>
+            <li>Dial <b>*98</b>.</li>
+            <li>Press <b>Send</b> or wait. </li>
+            <li>You hear a message telling you on which orbit the call is parked and prompting you to complete the transfer. Press <b>Transfer</b> to complete.</li>
+        </ol>
+        <h2>Pick Up a Parked Call</h2>
+        <p>When you let a person know they have a parked call, you will need to tell them the orbit number on which the call is parked. </p>
+        <p>To pick up a parked call:</p>
+        <ol>
+            <li>Go to any ENA SmartVoice phone in the building and dial *99 followed by the orbit number.</li>
+        </ol>
+    </body>
+</html>

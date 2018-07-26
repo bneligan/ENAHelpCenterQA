@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../Resources/Stylesheets/tablestyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>ENA SmartVoice Access (Star) Codes</h1>
+        <table style="mc-table-style: url('../../Resources/Stylesheets/tablestyle.css');border-top-left-radius: 9px;border-top-right-radius: 9px;border-bottom-right-radius: 9px;border-bottom-left-radius: 9px;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;border-collapse: separate;" class="TableStyle-tablestyle" cellspacing="0">
+            <col class="TableStyle-tablestyle-Column-Column1" style="width: 0px;" />
+            <col class="TableStyle-tablestyle-Column-Column2" style="width: 0px;" />
+            <col class="TableStyle-tablestyle-Column-Column2" style="width: 0px;" />
+            <col class="TableStyle-tablestyle-Column-Column2" style="width: 0px;" />
+            <thead>
+                <tr class="TableStyle-tablestyle-Head-Header1">
+                    <th class="TableStyle-tablestyle-HeadE-Column1-Header1">
+                        <p>Access Code</p>
+                    </th>
+                    <th class="TableStyle-tablestyle-HeadF-Column2-Header1">What it Does</th>
+                    <th class="TableStyle-tablestyle-HeadF-Column2-Header1">Available in Feature Package</th>
+                    <th class="TableStyle-tablestyle-HeadD-Column2-Header1">Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*53</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Directed Call Pickup</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Plus, Plus Mobile, Plus Office, Pro</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Enter *53 followed by the extension of a ringing phone to pick it up. </td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*54</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">
+                        <p>Group Call Pickup</p>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">
+                        <p>Plus, Plus Mobile, Plus Office, Pro</p>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">
+                        <p rowspan="2">Enter *54 followed by the extension of a ringing phone to pick it up. </p>
+                        <p rowspan="2">Call Pickup Groups are set up by your ENA SmartVoice System Administrator.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*62</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Enable Busy Call Forwarding </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">
+                        <p>Prime, Plus, Plus Mobile, Plus Office</p>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">
+                        <p rowspan="2">ENA SmartVoice extensions assigned a Pro Feature Package, are forwarded using the <b>Reach Me</b> function in the ENA SmartVoice User Portal and not access (star) codes.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*63</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Disable Busy Call Forwarding </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">
+                        <p>Prime, Plus, Plus Mobile, Plus Office</p>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*69</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Automatic Recall</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">All</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Plays an announcement of the number of the last call received.</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*72</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Enable Unconditional Call Forward</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Prime, Plus, Plus Mobile, Plus Office</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">ENA SmartVoice extensions assigned a Pro Feature Package, are forwarded using the <b>Reach Me</b> function in the ENA SmartVoice User Portal and not access (star) codes.</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*73</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Disable Unconditional Call Forward</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Prime, Plus, Plus Mobile, Plus Office</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*78</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Enable Do Not Disturb </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">All</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">
+                        <p>When Do not Disturb is enabled for an extension with a Pro feature package, caller hears system generated message that person is unavailable and call terminates.</p>
+                        <p>When Do not Disturb is enabled for  all other features packages, call goes directly to voicemail.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*79</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Disable Do Not Disturb </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">All</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*92</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Enable Call Forwarding on No Answer</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Prime, Plus, Plus Mobile, Plus Office</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">ENA SmartVoice extensions assigned a Pro Feature Package, are forwarded using the <b>Reach Me</b> function in the ENA SmartVoice User Portal and not access (star) codes.</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*93</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Disable Call Forwarding on No Answer</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Prime, Plus, Plus Mobile, Plus Office</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*98</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Call Park</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">All</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Press <b>Transfer</b> followed by *98 to park a call.</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*99</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Retrieve Parked Call</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">
+                        <p>All</p>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">
+                        <p>Press *99 followed by the Park Orbit to retrieve a parked call.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyB-Column1-Body1"><b>*318</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyC-Column2-Body1">Voicemail</td>
+                    <td class="TableStyle-tablestyle-BodyC-Column2-Body1">All</td>
+                    <td class="TableStyle-tablestyle-BodyA-Column2-Body1">&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

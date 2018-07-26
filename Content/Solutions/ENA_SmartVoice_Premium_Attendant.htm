@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Resources/Stylesheets/tablestyle.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>ENA SmartVoice Premium Attendant</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Source+Sans+Pro:400,600" rel="stylesheet" type="text/css" />
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>ENA SmartVoice Premium Attendant</h1>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">In this guide, the terms "Premium Attendant" and "Auto Attendant" are used interchangeably.</p>
+        <h2>Plan </h2>
+        <p>With your ENA SmartVoice Premium Attendant you can offer callers a variety of options. Click <a href="../Resources/Images/ENASmartVoice/Premium Attendant/Auto_Attendant_Planning_Worksheet_11_2_17.pdf">here</a> to download a planning sheet which will help you map out what options you want to present callers at different times of day.</p>
+        <h2>Log In</h2>
+        <p>In the <b>Lines</b> tab of your <a href="https://my.ena.com/smartvoice-admin">ENA SmartVoice Administrator portal</a>, click <b>View individual settings</b> from the <b>Actions</b> drop down menu for the Premium Attendant you would like to configure.</p>
+        <p>
+            <img src="../Resources/Images/ENASmartVoice/Premium Attendant/AALogIn1.png" class="SeventyPercentMaxWidth" />
+        </p>
+        <h3>Access through the User portal</h3>
+        <p>Point your browser to <a href="https://my.ena.com/smartvoice-user">https://my.ena.com/smartvoice-user</a> and enter the 10-digit number and the account password for the ENA SmartVoice Premium Attendant.</p>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If your Premium Attendant is an extension only number, and not a direct dial number with an area code and 7 digits, the 10-digit number includes the prefix for your business group. You see the full 10-digit number under the <b>Lines</b> tab in your ENA SmartVoice Administrator portal.</p>
+        <p>
+            <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_login through user.png" class="SeventyPercentMaxWidth" />
+        </p>
+        <h2>Create and Configure Schedule</h2>
+        <p>Click <b>Schedule.</b></p>
+        <p>
+            <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_click schedule.png" class="SeventyPercentMaxWidth" />
+        </p>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If your system call flow is designed so callers reach a main number first and are forwarded to the Premium Attendant at certain times of day (e.g., calls ring live to the front office during the day and are forwarded to the Premium Attendant after hours), scheduling will be handled "upstream" of the Premium Attendant. </p>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">The first time you access the ENA SmartVoice Premium Attendant Schedule, you see the option to select an "example" schedule or a "blank" schedule. In this guide, we are using the "blank" schedule.</p>
+        <p>Your ENA SmartVoice Premium Attendant is pre-loaded with a 24/7/365 schedule period named <b>All other times</b>. If you are going to use a single announcement and set of options for callers, this is the only schedule period you need. </p>
+        <p>If you want caller to hear a different message and have different options depending on the time of day:</p>
+        <ol>
+            <li>Click <b>Add New Period</b></li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_add new schedule.png" class="SeventyPercentMaxWidth" />
+            </p>
+            <li>Type in the name for the new schedule period.</li>
+            <li>Click <b>Ok</b></li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_name schedule.png" class="SeventyPercentMaxWidth" />
+            </p>
+            <li>With the new schedule period selected on the left, use your mouse to paint in the hours you would like to include in this schedule period. In this example, we will define <b>school hours</b> to be 7:30am to 3:30pm, Monday-Friday. </li>
+            <li>Click <b>Apply</b>.</li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_define schedule.png" class="SeventyPercentMaxWidth" />
+            </p>
+            <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">In the default view, the schedule shows in hour periods. Click <b>Zoom In</b> to show the schedule in 15 minute increments and <b>Zoom Out</b> to toggle back to viewing the schedule in hour increments.</p>
+        </ol>
+        <h2>Create and Configure Menus and Announcements</h2>
+        <h3>Create a menu</h3>
+        <p>Menus are where you define what action will happen when a caller presses a specific key.</p>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">Each schedule period must be assigned a menu.</p>
+        <p>You can create a menu from the <b>Schedule</b> tab or by clicking <b>Add New Menu</b> under the <b>Menu</b> tab. In this example, we will create a menu for <b>school hours</b> from the <b>Schedule</b> tab.</p>
+        <ol>
+            <li>Click <b>Create New Menu</b> from the <b>During this period, use this menu: </b>dropdown.</li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_create new menu.png" class="SeventyPercentMaxWidth" />
+            </p>
+            <li>Type in the name of the new menu.</li>
+            <li>Click <b>Ok</b>.</li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_name menu.png" class="SeventyPercentMaxWidth" />
+            </p>
+            <li>Click <b>Apply</b>.</li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_click Apply.png" class="SeventyPercentMaxWidth" />
+            </p>
+            <li>Click <b>Menus</b>.</li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_click menu tab.png" class="SeventyPercentMaxWidth" />
+            </p>
+        </ol>
+        <h3>Create or Assign Announcement</h3>
+        <ol>
+            <li>Before configuring the menu any further, the system requires you to assign an announcement to the menu. To do this, open the <b>Menu announcement</b> drop down. <br />In this example, we do not have any announcements created, so we click <b>Create New Announcement</b> to create and assign a placeholder. We will go back and record it later. </li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_create new announcement.png" class="SeventyPercentMaxWidth" />
+            </p>
+            <li>Type in the name for your announcement.</li>
+            <li>Click <b>Ok</b>.</li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_name announcement.png" class="SeventyPercentMaxWidth" />
+            </p>
+            <li>Click <b>Apply</b>.</li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_announcement click apply.png" class="SeventyPercentMaxWidth" />
+            </p>
+        </ol>
+        <h3>Define actions when caller presses key</h3>
+        <p>Go to <b>Keys</b> tab in the <b>Menus</b> tab to define what happens when a caller presses a key</p>
+        <ol>
+            <li>Click <b>Keys</b>.</li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_click keys.png" class="SeventyPercentMaxWidth" />
+            </p>
+            <li>From the dropdown menu by each key, select the option you would like to assign to it. Fill out any fields that pop up for the selection. For example, when you choose <b>Transfer to Phone</b> you see a field to select or enter the number to which you would like the caller to be transferred when they press that key.<br />			Repeat this step for all the keys you want to program. </li>
+            <li>Click <b>Apply</b>.</li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_program keys.png" class="SeventyPercentMaxWidth" />
+            </p>
+        </ol>
+        <p>Repeat these steps for all schedule periods and their associated menus and announcements.</p>
+        <p>Available options are shown in the table below. </p>
+        <table style="width: 100%;mc-table-style: url('../Resources/Stylesheets/tablestyle.css');" class="TableStyle-tablestyle" cellspacing="0">
+            <col class="TableStyle-tablestyle-Column-Column1" />
+            <col class="TableStyle-tablestyle-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-tablestyle-Head-Header1">
+                    <th class="TableStyle-tablestyle-HeadE-Column1-Header1">Key Option</th>
+                    <th class="TableStyle-tablestyle-HeadD-Column2-Header1">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="font-weight: bold;">Use Default</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Key is programmed for whatever you set as the default action in the <b>Advanced</b> settings tab. </td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="font-weight: bold;">Transfer to Phone
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">When caller presses key, is transferred to a designated extension or number. Number can be internal or external.</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="font-weight: bold;">Transfer to Voicemail
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">When caller presses key, is transferred to the voicemail of designated extension.  Number must be internal.</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="font-weight: bold;">Dial by Extension </td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">When caller presses key, hears system announcement to enter the extension of party would like to reach. <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">Rather than press a key for Dial by Extension, you may offer callers the option to <a href="#Turn">Dial by Extension at any time</a>.</p></td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="font-weight: bold;">Dial by Name</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">When caller presses key, accesses Dial by Name directory.<p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">In order for a name to appear in the Dial by Name directory, the voicemail for that extension must be set up.</p></td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="font-weight: bold;">Voicemail by Extension</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">
+                        <p>When caller presses key, hears system announcement to enter the extension of party would like to reach. </p>
+                        <p>Once extension is entered, caller is immediately connected to the recipient's voicemail.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="font-weight: bold;">Voicemail by Name
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">
+                        <p>When caller presses key, accesses Dial by Name directory.</p>
+                        <p>Once name is entered, caller is immediately connected to the recipient's voicemail.</p>
+                        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">In order for a name to appear in the Dial by Name directory, the voicemail for that extension must be set up.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="font-weight: bold;">Intercept Mailbox
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">When caller presses key, is transferred to mailbox configured in <b>Other Settings</b> in the <b>Advanced</b> tab.</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="font-weight: bold;">Go to Menu</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">When caller presses key, accesses another Premium Attendant menu which you designate. This is how you create a tree structure for your Premium Attendant.</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="font-weight: bold;">Return to Previous Menu</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">When caller presses key, hears previous menu. If there is no previous menu, caller hears current menu.</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="font-weight: bold;">Replay Menu</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">When caller presses key, hears current menu.</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="font-weight: bold;">Announcement - Return</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">When caller presses key, hears designated announcement. When announcement is finished, hears menu announcement.</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="font-weight: bold;">Announcement - Hang up</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">When caller presses key, hears designated announcement. When announcement is finished, Premium Attendant hangs up. </td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyB-Column1-Body1" style="font-weight: bold;">Hang up</td>
+                    <td class="TableStyle-tablestyle-BodyA-Column2-Body1">Premium Attendant hangs up. </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Record or Upload Announcements</h2>
+        <p>You can:</p>
+        <ul>
+            <li>Record announcements via any ENA SmartVoice phone in your system on which voicemail has already been set up</li>
+            <li>Record announcements via a phone outside of your ENA SmartVoice system (e.g., your cell, home, etc.)</li>
+            <li>Record announcements from your computer using the record feature in the Premium Attendant portal</li>
+            <li>Upload a pre-recorded announcement</li>
+        </ul>
+        <h3>Record announcement from ENA SmartVoice phone</h3>
+        <ol>
+            <li>Access voicemail from any ENA SmartVoice phone on which voicemail has already been set up.</li>
+            <li>When asks for PIN, press the star key (*).</li>
+            <li>When asks for area code and phone number, enter the 10-digit number for the Premium Attendant, followed by the pound key (#).</li>
+            <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If your Premium Attendant is an extension only number, and not a direct dial number with an area code and 7 digits, the 10-digit number includes the prefix for your business group. You see the full 10-digit number under the <b>Lines</b> tab in your ENA SmartVoice Administrator portal.</p>
+            <li>When asks for PIN, enter the PIN provided by ENA, and press the pound key (#).</li>
+            <li>Select option 1, “Change premium attendant configuration.”</li>
+            <li>Select option 2, “Edit announcement."</li>
+            <li>When hear “Please enter the number of the announcement you would like to record,” enter announcement number.<br /> You will find the announcement number under the “Announcements” tab in the Premium Attendant portal.</li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_announcement number.png" class="SeventyPercentMaxWidth" />
+            </p>
+            <li>Follow the prompts</li>
+        </ol>
+        <h3>Record announcement from non-ENA SmartVoice phone</h3>
+        <ol>
+            <li>Dial 877-675-1152.</li>
+            <li>When asks for area code and phone number, enter the 10-digit number for the Premium Attendant, followed by the pound key (#).</li>
+            <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If your Premium Attendant is an extension only number, and not a direct dial number with an area code and 7 digits, the 10-digit number includes the prefix for your business group. You see the full 10-digit number under the <b>Lines</b> tab in your ENA SmartVoice Administrator portal.</p>
+            <li>When asks for PIN, enter the PIN provided by ENA, and press pound key (#).</li>
+            <li>Select option 1, “Change premium attendant configuration.”</li>
+            <li>Select option 2, “Edit announcement."</li>
+            <li>When hear “Please enter the number of the announcement you would like to record,” enter announcement number.<br /> You will find the announcement number under the “Announcements” tab in the Premium Attendant portal.</li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_announcement number.png" class="SeventyPercentMaxWidth" />
+            </p>
+            <li>Follow the prompts</li>
+        </ol>
+        <h3>Record announcement using Built-in recorder</h3>
+        <ol>
+            <li>Connect a microphone to your computer and press the record button next to the announcement under the “Announcements” tab.</li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_announcement record button.png" class="SeventyPercentMaxWidth" />
+            </p>
+            <li>Click the record button in the console and record your announcement.</li>
+            <li>Click <b>Save</b></li>
+        </ol>
+        <h3>Upload a pre-recorded announcement</h3>
+        <ol>
+            <li>In the <b>Announcements</b> tab, click on the name of the announcement for which you would like to upload an audio file.</li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_announcement upload click name.png" class="SeventyPercentMaxWidth" />
+            </p>
+            <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If you have not yet created the announcement, click <b>Add New Announcement</b> and follow the prompts.</p>
+            <li>Select <b>Upload Announcement</b> from the drop down menu and follow the prompts.</li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_announcement upload click upload.png" class="SeventyPercentMaxWidth" />
+            </p>
+            <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">The audio file must be in a G711 WAV (8-bit, ulaw / alaw, mono, 8kHz), 16-bit PCM WAV (16-bit, PCM, mono, 16kHz) format.</p>
+        </ol>
+        <h2>Manage Dial-By-Name and Dial-By-Extension directories</h2>
+        <p>Each user is prompted to record his or her name when setting up voicemail. In order for a staff member to show up in the dial-by-name or dial-by-extension directory  , he or she must have recorded a name the system can access. If a name was recorded, a green <b>override</b> link will display under <b>Spoken Name</b>. If the user did not record a name, a red <b>record</b> link will display in that column. If necessary, you can record a user’s name from a computer with a microphone.</p>
+        <p>
+            <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_extesnions record or override.png" class="SeventyPercentMaxWidth" />
+        </p>
+        <h3>Exclude users from dial-by-name and dial-by-extension directories</h3>
+        <p>By default, all extensions are included in the dial-by-name and dial-by-extension directories. To exclude an extension:</p>
+        <ol>
+            <li>Check the box to the left of the extension number.</li>
+            <li>Click <b>Mark as Excluded</b>.</li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_extensions exclude.png" class="SeventyPercentMaxWidth" />
+            </p>
+        </ol>
+        <h3><a name="Turn"></a>Turn on the option for caller to dial a party's extension at any time</h3>
+        <p>The option for callers to enter their party's extension at any time during the announcement is turned off by default. If you would like to turn this option on for callers:</p>
+        <ol>
+            <li>Click <b>Callers are allowed to dial by extension at any time</b>.</li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_extesnions dial at any time.png" class="SeventyPercentMaxWidth" />
+            </p>
+            <li>Click <b>At any time</b>.</li>
+            <li>Click <b>Apply</b>.</li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_extensions select at any time.png" class="SeventyPercentMaxWidth" />
+            </p>
+        </ol>
+        <h2>Activate or Forward Calls to Another Number</h2>
+        <h3>Activate</h3>
+        <p>When your ENA Premium Attendant menus are set up and the associated announcements are recorded, you activate it by:</p>
+        <ol>
+            <li>Clicking <b>Main</b></li>
+            <li>Clicking <b>Turn ON</b></li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_activate.png" class="SeventyPercentMaxWidth" />
+            </p>
+        </ol>
+        <h3>Forward Calls to ENA SmartVoice Premium Attendant to Another Number</h3>
+        <p>If your ENA SmartVoice Premium Attendant number is one that callers can dial directly (e.g., School or library's main number) and you do not have the opportunity to configure it and record announcements prior to your system go-live, you may forward incoming calls to another number (e.g., main office). To do this:</p>
+        <ol>
+            <li>Under the <b>Main</b> tab, click <b style="text-decoration: underline;">this number is unreachable</b></li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_number is unreachable.png" class="SeventyPercentMaxWidth" />
+            </p>
+            <li>Click <b>Forward callers to:</b></li>
+            <li>Enter the number</li>
+            <li>Click <b>Apply</b></li>
+            <p>
+                <img src="../Resources/Images/ENASmartVoice/Premium Attendant/ENA SmartVoiceAA_forward.png" class="SeventyPercentMaxWidth" />
+            </p>
+        </ol>
+    </body>
+</html>

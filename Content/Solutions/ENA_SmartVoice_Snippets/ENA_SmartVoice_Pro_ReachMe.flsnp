@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h2>ENA SmartVoice Pro Feature Package Reach Me</h2>
+        <h3>Handle Depending on the Time of Day or Day of Week</h3>
+        <p>AN ENA SmartVoice extension with a Pro feature package can be configured to handle calls in different ways depending on the time of day or day of week. In this example, we'll create a schedule and a rule to forward calls from this number to an auto attendant after hours. </p>
+        <h4>Create a schedule period</h4>
+        <ol>
+            <li>Click <b>Weekly Schedule</b>.</li>
+            <li>If you see the option, click <b>A blank schedule</b>.</li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../../Resources/Multimedia/ENA-SmartVoice/Pro_ReachMe/ENA-SmartVoice-Pro-choose-blank-schedule .mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+            <li>Click <b>Add New Period</b>. </li>
+            <li>Type in a name for the schedule period. In this example, we'll create an <b>After Hours</b> schedule period.</li>
+            <li>Click <b>OK</b>.</li>
+            <li>With that schedule period highlighted, use your mouse to click and drag to select the times you want to include in this period. In this example, After Hours will be from 4:15 to 7:45 M-F and all day Saturday and Sunday.</li>
+            <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">Click <b>Zoom In</b> to see the schedule broken up into 15 minutes increments.</p>
+            <li>Click <b>Apply</b>.</li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../../Resources/Multimedia/ENA-SmartVoice/Pro_ReachMe/ENA-SmartVoice-Pro-create-schedule-period .mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+        </ol>
+        <h4>Create a rule</h4>
+        <ol>
+            <li>Click <b>Rules</b>.</li>
+            <li>Click <b>an example set of rules</b>.</li>
+            <li>Click <b>Add New Set of Rules</b>.</li>
+            <li>Type in a name for the rule. In this example, we'll create a <b>Forward to AA</b> rule.</li>
+            <li>Click <b>OK</b>.</li>
+            <li>Click <b>Apply</b>.</li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../../Resources/Multimedia/ENA-SmartVoice/Pro_ReachMe/ENA-SmartVoice-Pro-add-name-rule .mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+            <li>With that rule highlighted, click <b>Edit</b>.</li>
+            <li>Configure the options. In this example, we'll click <b>forward to</b> and enter the AA extension. </li>
+            <li>Click <b>Finish</b>.</li>
+            <li>Click <b>Apply</b>.</li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../../Resources/Multimedia/ENA-SmartVoice/Pro_ReachMe/ENA-SmartVoice-Pro-add-edit-rule .mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+        </ol>
+        <h4>Activate time of day/time of week call handling</h4>
+        <ol>
+            <li>Click <b>Summary</b>.</li>
+            <li>Click <b>Handle depending on the time or day</b>.</li>
+            <li>Select the rule to be applied for each schedule period. In this example, we will use <b>Forward to AA</b> during <b>After Hours</b>. We will use <b>Normal</b> rules at all other times. </li>
+            <li>Click <b>Apply</b>.
+</li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../../Resources/Multimedia/ENA-SmartVoice/Pro_ReachMe/ENA-SmartVoice-Pro-activate-rule .mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object><![CDATA[			]]></p>
+        </ol>
+    </body>
+</html>

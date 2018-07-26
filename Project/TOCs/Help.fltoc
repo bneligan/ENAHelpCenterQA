@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Solutions">
+    <TocEntry
+      Title="ENA Air"
+      Link="/Content/Solutions/ENA_Air.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="ENA Air v1 with Aerohive Hardware"
+        Link="/Content/Solutions/ENA_Air_v1_Aerohive_hardware.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+      <TocEntry
+        Title="ENA Air v2 with Ruckus Hardware"
+        Link="/Content/Solutions/ENA_Air_v2_Ruckus_hardware.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Solutions/ENA_NetDefender.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="ENA Netshield"
+      Link="/Content/Solutions/ENA_NetShield.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="ENA SmartConference"
+      Link="/Content/Solutions/ENA_SmartConference.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Solutions/ENA_SmartFax.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="ENA SmartVoice"
+      Link="/Content/Solutions/ENA_SmartVoice.htm">
+      <TocEntry
+        Title="End User">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Solutions/ENA_SmartVoice_Polycom_SoundPoint_300_Series.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Solutions/ENA_SmartVoice_Polycom_SoundPoint_450.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Solutions/ENA_SmartVoice_Polycom_SoundPoint_500_and_600_Series.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Solutions/ENA_SmartVoice_Polycom_VVX_200_Series.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Solutions/ENA_SmartVoice_Polycom_VVX_300_Series.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Polycom VVX 400 Series"
+          Link="/Content/Solutions/ENA_SmartVoice_Polycom_VVX_400_Series.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Polycom VVX 500 and 600 Series"
+          Link="/Content/Solutions/ENA_SmartVoice_Polycom_VVX_500_and_600_Series.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Solutions/ENA_SmartVoice_Yealink_SIP-T21P_E2.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Yealink SIP-T40G"
+          Link="/Content/Solutions/ENA_SmartVoice_Yealink_SIP-T40G.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Solutions/ENA_SmartVoice_Yealink_SIP-T42S.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Solutions/ENA_SmartVoice_Yealink_SIP-T46S.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Solutions/ENA_SmartVoice_Yealink_SIP-T48S.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="ENA SmartVoice Go"
+          Link="/Content/Solutions/ENA_SmartVoice_Go.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Solutions/ENA_SmartVoice_User_Portal.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Set Up Voicemail Only Account"
+          Link="/Content/Solutions/ENA_SmartVoice_Set_Up_Voicemail_Only_Account.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="System Administrator">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Solutions/ENA_SmartVoice_System_Administrator_Portal.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Premium Attendant"
+          Link="/Content/Solutions/ENA_SmartVoice_Premium_Attendant.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Hosted Call Recording"
+          Link="/Content/Solutions/ENA_SmartVoice_HCR_supervisor.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Connect and Provision phones"
+          Link="/Content/Solutions/ENA_SmartVoice_Connect_and_Provision_phones.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Basic Troubleshooting"
+          Link="/Content/Solutions/ENA_SmartVoice_Basic_Troubleshooting.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Solutions/ENA_SmartVoice_Algo_8301_Paging_Adapter_and_Scheduler.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Solutions/ENA_TrustBackup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Solutions/ENA_TrustCompute.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Solutions/ENA_TrustVault.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="ENA WebSafe"
+      Link="/Content/Solutions/ENA_WebSafe.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Solutions/Video Collaboration Powered by Zoom.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="Support Tools">
+    <TocEntry
+      Title="ENA Account Management"
+      Link="/Content/Support_Tools/ENA_Account_Management.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="ENA Bandwidth Utilization"
+      Link="/Content/Support_Tools/ENA_Bandwidth_Utilization.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="ENA Network Availability Monitoring"
+      Link="/Content/Support_Tools/ENA_Network_Availability_Monitoring.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Support_Tools/ENA_Ticket_Tracker.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="Technology Leader Welcome Kit"
+    Link="/Content/Technology Leader Resources/Technology_Leader_Welcome_Kit.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+</CatapultToc>

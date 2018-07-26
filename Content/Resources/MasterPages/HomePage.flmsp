@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="270" MadCap:lastWidth="1032">
+    <head>
+        <script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments)};
+			gtag('js', new Date());
+
+			gtag('config', 'UA-40596580-1​');
+		</script>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title>ENA Help Center</title>
+        <script src="https://use.fontawesome.com/d55f30af0f.js">
+        </script>
+        <link href="../Stylesheets/StylesForHomePage.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="contentBody" class="off-canvas-main">
+            <MadCap:bodyProxy />
+            <div class="footer center">
+                <div class="home-master-page-footer">
+                    <div>
+                        <p>
+                            <img src="../Images/Assets/Icons/SocialMedia/AddSM-gray.png" />
+                        </p>
+                        <p>FOLLOW&#160;US</p>
+                        <table style="width: 100%;">
+                            <col />
+                            <col />
+                            <col />
+                            <col />
+                            <tbody>
+                                <tr>
+                                    <td><a href="[%=General.Facebook%]" target="_blank"><img src="../Images/Assets/Icons/SocialMedia/FB-gray.png" /></a>
+                                    </td>
+                                    <td>
+                                        <p><a href="[%=General.Twitter%]" target="_blank"><img src="../Images/Assets/Icons/SocialMedia/Twitter-gray.png" /></a>
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p><a href="[%=General.LinkedIn%]" target="_blank"><img src="../Images/Assets/Icons/SocialMedia/LI-gray.png" /></a>
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p><a href="[%=General.YouTube%]" target="_blank"><img src="../Images/Assets/Icons/SocialMedia/Youtube-gray.png" /></a>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                        <p><a href="https://www.ena.com/"><img src="../Images/Company logos/ena-primary-logo-connecting-communities-large-rgb.png" /></a>
+                        </p>
+                        <!--<p><MadCap:variable name="General.CompanyName" />
+                        </p>-->
+                    </div>
+                    <div>
+                        <p>
+                            <img src="../Images/Assets/Icons/MainIcons/Contact-gray.png" />
+                        </p>
+                        <p><a href="mailto:helpcenter@ena.com">helpcenter@ena.com</a>
+                        </p>
+                        <!--<p><MadCap:variable name="General.PhoneNumber" />
+                        </p>
+                        <p><MadCap:variable name="General.StreetAddress" /> <MadCap:variable name="General.CityStateZip" /></p>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

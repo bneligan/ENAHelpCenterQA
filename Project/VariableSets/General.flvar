@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CompanyName"
+    EvaluatedDefinition="Education Networks of America">Education Networks of America</Variable>
+  <Variable
+    Comment=""
+    Name="PhoneNumber"
+    EvaluatedDefinition="615 312 6000">615 312 6000</Variable>
+  <Variable
+    Name="StreetAddress"
+    Comment=""
+    Definition="Some text"
+    OriginalName="StreetAddress"
+    EvaluatedDefinition="618 Grassmere Park Drive, Suite 12">618 Grassmere Park Drive, Suite 12</Variable>
+  <Variable
+    Name="ProductName"
+    Comment=""
+    OriginalName="ProductName"
+    EvaluatedDefinition="Solutions">Solutions</Variable>
+  <Variable
+    Name="Fax"
+    Comment=""
+    OriginalName="Fax"
+    EvaluatedDefinition="Fax 615 312 6099">Fax 615 312 6099</Variable>
+  <Variable
+    Name="CityStateZip"
+    Comment=""
+    Definition="Some text"
+    EvaluatedDefinition="Nashville, TN 37211">Nashville, TN 37211</Variable>
+  <Variable
+    Name="Year"
+    Comment=""
+    Type="DateTime"
+    LastUpdated="2016-02-16T18:02:51.1357833-08:00"
+    EvaluatedDefinition="yyyy">yyyy</Variable>
+  <Variable
+    Name="Email"
+    Comment=""
+    EvaluatedDefinition="HelpCenter@ena.com">HelpCenter@ena.com</Variable>
+  <Variable
+    Name="YouTube"
+    Comment=""
+    EvaluatedDefinition="http://youtube.com/user/EducationNetworks">http://youtube.com/user/EducationNetworks</Variable>
+  <Variable
+    Name="LinkedIn"
+    Comment=""
+    EvaluatedDefinition="http://linkedin.com/company/Education-Networks-of-America">http://linkedin.com/company/Education-Networks-of-America</Variable>
+  <Variable
+    Name="Facebook"
+    Comment=""
+    EvaluatedDefinition="http://facebook.com/ENAconnects">http://facebook.com/ENAconnects</Variable>
+  <Variable
+    Name="Twitter"
+    Comment=""
+    EvaluatedDefinition="http://twitter.com/ENAconnects">http://twitter.com/ENAconnects</Variable>
+  <Variable
+    Name="CallToAction"
+    Comment=""
+    EvaluatedDefinition="http://help.ena.com">http://help.ena.com</Variable>
+</CatapultVariableSet>

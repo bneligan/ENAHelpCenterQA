@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Resources/Stylesheets/tablestyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>ENA Air<sup>v2</sup> with Ruckus Hardware</h1>
+        <MadCap:dropDown class="Video">
+            <MadCap:dropDownHead MadCap:conditions="General.Online Only">
+                <MadCap:dropDownHotspot MadCap:conditions="General.Online Only">Overview to ENA Air<sup>v2</sup> Features</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="border">
+                    <div class="videoWrapper"><iframe class="tscplayer_inline embeddedObject" name="tsc_player" scrolling="no" frameborder="0" type="text/html" style="overflow:hidden;" src="https://www.screencast.com/users/enalive/folders/ENA Air/media/b64a68a5-670e-44e6-b21a-317448379333/embed" height="315" width="560" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
+                    </div>
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h1>QoS (Quality of Service) Mapping</h1>
+        <h2>What is QoS Mapping?</h2>
+        <p>QoS (Quality of Service) mapping prioritizes packets moving over your network according to their DSCP (Differentiated Service Code Point).</p>
+        <p>DSCP is an 8-bit field in the IP header of a packet.  DSCP is used in DiffServ and is a simple mechanism for classifying network traffic and providing QoS.</p>
+        <p>DSCP ranges are classified in one of four AC (Access Categories): </p>
+        <ul>
+            <li>Background</li>
+            <li>Best Effort</li>
+            <li>Video</li>
+            <li>Voice</li>
+        </ul>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">802.11 frames are at Layer 2 (Data Link / MAC) of the OSI model. As a result, there are no DSCP values in 802.11 frames.</p>
+        <p>Each AC is assigned a UP (User Priority) from 0-7, with 0 being the lowest.</p>
+        <h3>UP-to-AC-to-DSCP range mappings</h3>
+        <table style="width: 100%;mc-table-style: url('../Resources/Stylesheets/tablestyle.css');margin-left: auto;margin-right: auto;" class="TableStyle-tablestyle" cellspacing="0">
+            <col class="TableStyle-tablestyle-Column-Column1" />
+            <col class="TableStyle-tablestyle-Column-Column2" />
+            <col class="TableStyle-tablestyle-Column-Column2" />
+            <col class="TableStyle-tablestyle-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-tablestyle-Head-Header1">
+                    <th class="TableStyle-tablestyle-HeadE-Column1-Header1">
+                        <p>UP</p>
+                        <p> (low to high)</p>
+                    </th>
+                    <th class="TableStyle-tablestyle-HeadF-Column2-Header1">
+                        <p>AC</p>
+                    </th>
+                    <th class="TableStyle-tablestyle-HeadF-Column2-Header1">
+                        <p>Designation</p>
+                        <p>(Informative)</p>
+                    </th>
+                    <th class="TableStyle-tablestyle-HeadD-Column2-Header1">DSCP Range</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">0</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1" style="text-align: center;">AC_BE</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1" style="text-align: center;">Best Effort</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1" style="text-align: center;">0-7</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">1</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1" style="text-align: center;">AC_BK</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1" style="text-align: center;">Background</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1" style="text-align: center;">8-15</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">2</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1" style="text-align: center;">AC_BK</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1" style="text-align: center;">Background</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1" style="text-align: center;">16-23</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">3</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1" style="text-align: center;">AC_BE</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1" style="text-align: center;">Best Effort</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1" style="text-align: center;">24-31</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">4</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1" style="text-align: center;">AC_VI</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1" style="text-align: center;">Video</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1" style="text-align: center;">32-39</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">5</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1" style="text-align: center;">AC_VI</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1" style="text-align: center;">Video</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1" style="text-align: center;">40-47</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">6</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1" style="text-align: center;">AC_VO</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1" style="text-align: center;">Video</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1" style="text-align: center;">48-55</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyB-Column1-Body1" style="text-align: center;font-weight: normal;">7</td>
+                    <td class="TableStyle-tablestyle-BodyC-Column2-Body1" style="text-align: center;">AC_VO</td>
+                    <td class="TableStyle-tablestyle-BodyC-Column2-Body1" style="text-align: center;">Video</td>
+                    <td class="TableStyle-tablestyle-BodyA-Column2-Body1" style="text-align: center;">56-63</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>As an example, let’s look at how Skype is mapped.</p>
+        <p>We know from the <a href="https://docs.microsoft.com/en-us/skypeforbusiness/optimizing-your-network/optimizing-your-network#implement-quality-of-service-qos-for-skype-for-business" target="_blank">Microsoft documentation</a> that Skype uses DSCP 46 for packets containing Audio data, and a DSCP value of 34 for packets containing Video data. By default, this would give Audio packets a UP of 5 and Video packets a UP of 4.</p>
+        <h2>Modifying QoS Mapping</h2>
+        <p>In ENA Air v2, it is possible to modify QoS mapping by making an exception and putting a DSCP into a different AC.  This will give traffic with that DSCP a different UP.</p>
+        <h3>Access QoS mapping tool</h3>
+        <p>Go to: </p>
+        <ol>
+            <li><b>Manage</b>
+            </li>
+            <li><b>WLANs</b>
+            </li>
+            <li><b>Details</b> for WLAN for which would like to modify QoS mapping</li>
+            <li><b>Edit</b> under QoS Settings</li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-Air/ENA-Air-v2/ENA-Air-v2-access-QoS-mapping.mp4" MadCap:Param_controls="true" MadCap:Param_muted="false" MadCap:Param_loop="true" MadCap:Param_autoplay="false">
+                </object>
+            </p>
+        </ol>
+        <h3>Edit QoS Mapping</h3>
+        <p>Once you have opened the QoS mapping edit tool for the WLAN you would like to modify, move the DSCP values you would like to adjust into the <b>Exceptions</b> area for a UP and save your changes. </p>
+        <p>For example, once we know a traffic type’s DSCP value, we can move it to the proper bucket.  Say we want to drop Skype traffic to best effort for whatever reason.  As we talked about above, Skype uses DSCP 46 for audio and 34 for video.  If you had no other traffic on your WLAN that used those values, we could add exceptions to the best effort buckets to move those values down.</p>
+        <p>
+            <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-Air/ENA-Air-v2/ENA-Air-v2-modify-QoS-mapping.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+            </object>
+        </p>
+        <h2>How DSCP Values are Set</h2>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">It is up to each individual product to set DSCP values on the packets they form.</p>
+        <p>From a WLAN client, it is up to the application to apply the proper AC to the frames/traffic.  If the application is applying best effort to voice traffic, it will not get put in the voice bucket once it reaches the AP.  Nor will it get put into the voice DSCP range (48-55) when exiting the AP onto the wire.  A thorough understand of the application that is being used is necessary for proper functionality.</p>
+        <p>The same applies when it comes to traffic from the wire to wireless clients.  If the DSCP value from the IPv4 header frame has a value of 20, the mapping will drop it in the background bucket.  You can see why it would not be advisable to simple edit your QoS mappings and put everything in the voice or video buckets.  When everything is mapped to a single bucket, nothing will get precedence over the other type of traffic.</p>
+    </body>
+</html>

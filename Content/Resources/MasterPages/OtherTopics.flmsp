@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="176" MadCap:lastWidth="1016">
+    <head>
+        <script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments)};
+			gtag('js', new Date());
+
+			gtag('config', 'UA-40596580-1​');
+		</script>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <link href="../Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Source+Sans+Pro:400,600" rel="stylesheet" type="text/css" />
+		<script defer="defer" src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+
+    </head>
+    <body>
+        <div class="search-container">
+            <MadCap:searchBarProxy data-mc-skin="/Project/Skins/SearchTopics.flskn" />
+        </div>
+        <div class="row collapse">
+            <div class="top-bar">
+                <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: ;" data-mc-skin="/Project/Skins/TopicToolbar.flskn" />
+                <MadCap:breadcrumbsProxy /> </div>
+            <div class="topic-layout">
+                <div>
+                    <div class="side-menu">
+                        <MadCap:menuProxy style="mc-toc-depth: 3;mc-context-sensitive: True;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" data-mc-skin="/Project/Skins/SideMenu.flskn" mc-linked-toc="$topicHeadings" />
+                    </div>
+                    <!--<div class="side-content">
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead class="side-content">
+                                <MadCap:dropDownHotspot>Search Tips</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <p>Search is based on keyword.</p>
+                                <p><samp>Ex:&#160;"Procedures"</samp>
+                                </p>
+                                <p>Do not search with natural language</p>
+                                <p><samp>Ex:&#160;"How do I write a new procedure?"</samp>
+                                </p>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                    </div>-->
+                    <!--Hello! This may be problematic because it displays funky in Flare XML Editor<a class="cta" href="http://www.madcapsoftware.com/support/contact-options.aspx"><div class="cta center"><p>Contact Support
+									</p></div></a>-->
+                </div>
+                <div>
+                    <MadCap:bodyProxy />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
