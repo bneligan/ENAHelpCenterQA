@@ -8,7 +8,17 @@
         <h2>Problem Sending SmartFax</h2>
         <p>Please follow these steps in sequence, testing as necessary after each/any change is made: </p>
         <ol>
-            <li>Make sure SmartFax ATA is powered on and registered.</li>
+            <li>Make sure SmartFax ATA has the following connections firmly made and the power LED on front of ATA is illuminated green.</li>
+            <ul>
+                <li>Power</li>
+                <p>12VDC port connected through ENA provided power adapter to a standard 110 volt / 60 Hz North American power source.</p>
+                <li>Network</li>
+                <p>WAN port connected through network cable to network jack (or switch port).</p>
+                <p>Network cable should <i>not</i> be connected to the LAN/PC port on the ATA.</p>
+				<li>Fax</li>
+				<p>Phone port 1 connected through telco cable to Line port of the Fax Machine.</p>
+				<p> For standard deployments phone port 2 should not be used.</p>
+            </ul>
             <li>
                 Make sure fax machine is powered on, not in sleep mode, not low/out of memory, and is set to DTMF (not Dial Pulse).
             </li>
@@ -38,11 +48,10 @@
             <li>Locate and use the fax machine model troubleshooting guide for additional troubleshooting steps to try.</li>
             <ul>
                 <li>As needed, document and provide the fax machine make and model to ENA Support.</li>
-
-            <li>
+                <li>
                 As needed, provide the link to fax machine's electronic user guide to ENA Support.
             </li>
-				            </ul>
+            </ul>
         </ol>
         <h2>Problem Receiving SmartFax</h2>
         <p>Please follow these steps in sequence, testing as necessary after each/any change is made:</p>
@@ -55,8 +64,7 @@
             <li>
                 <p>Power cycle fax machine.</p>
             </li>
-            <li>Make sure ATA is on its own dedicated network drop.<ul><li>Cannot share network drop with another networked device (like a multi-function printer/scanner/copier/fax).</li>
-			<li>Less preferred, but often acceptable, to use an  unmanaged Ethernet switch deployed at the existing DATA LAN network drop to support other data-networked devices alongside the fax ATA.</li></ul></li>
+            <li>Make sure ATA is on its own dedicated network drop.<ul><li>Cannot share network drop with another networked device (like a multi-function printer/scanner/copier/fax).</li><li>Less preferred, but often acceptable, to use an  unmanaged Ethernet switch deployed at the existing DATA LAN network drop to support other data-networked devices alongside the fax ATA.</li></ul></li>
             <li>Check for incorrect or disconnected telco cabling between phone 1 port of fax ATA and line port of fax machine.</li>
             <li>Check for error codes on the fax machine when attempting to receive.</li>
             <ul>
